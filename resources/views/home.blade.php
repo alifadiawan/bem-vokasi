@@ -8,8 +8,8 @@
             data-aos-duration="1000">
 
         <div class="container">
-            <div class="row justify-content-center align-items-center floating">
-                <div class="col">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-lg">
                     <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">Hi voks, selamat datang di website
                         resmi</p>
                     <h2 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">BEM Fakultas Vokasi</h2>
@@ -17,8 +17,13 @@
                     {{-- <a href="#about" class="btn-get-started">Get Started</a> --}}
                 </div>
                 <div class="col text-end">
-                    <img src="{{ asset('assets/img/logo_bem.png') }}" alt="" data-aos="fade-left"
-                        data-aos-duration="1500" data-aos-delay="1200" class="img-fluid floating">
+                    <div class="image text-center text-lg">
+                        <img src="{{ asset('ppp/img/logo_bem.png') }}" alt="" data-aos="fade-left"
+                        data-aos-duration="1500" data-aos-delay="1200" class="img-fluid floating"  >
+                        <img src="{{ asset('ppp/img/vokasi-sigap.png') }}" alt="" id="small-logo" data-aos="fade-right"
+                        data-aos-duration="1500" data-aos-delay="1500" class="img-fluid floating" 
+                            style="max-width: 150px;">
+                    </div>
                 </div>
             </div>
         </div>
@@ -105,6 +110,13 @@
 
 @section('page-css')
     <style>
+        #small-logo {
+            position: absolute;
+            right: 32rem;
+            bottom: 1rem;
+        }
+
+
         .video-container {
             border-radius: 20px;
             position: relative;
