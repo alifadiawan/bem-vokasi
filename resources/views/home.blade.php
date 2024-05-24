@@ -16,13 +16,12 @@
                     <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800">Kabinet Gelora Karya</p>
                     {{-- <a href="#about" class="btn-get-started">Get Started</a> --}}
                 </div>
-                <div class="col text-end">
-                    <div class="image text-center text-lg">
-                        <img src="{{ asset('ppp/img/logo_bem.png') }}" alt="" data-aos="fade-left"
-                        data-aos-duration="1500" data-aos-delay="1200" class="img-fluid floating"  >
-                        <img src="{{ asset('ppp/img/vokasi-sigap.png') }}" alt="" id="small-logo" data-aos="fade-right"
-                        data-aos-duration="1500" data-aos-delay="1500" class="img-fluid floating" 
-                            style="max-width: 150px;">
+                <div class="col text-center">
+                    <div class="image">
+                        <img id="logo-bem" src="{{ asset('ppp/img/logo_bem.png') }}" alt="" data-aos="fade-left"
+                            data-aos-duration="1500" data-aos-delay="1200" class="img-fluid floating">
+                        <img src="{{ asset('ppp/img/vokasi-sigap.png') }}" alt="" id="small-logo"
+                            data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1500" class="img-fluid floating">
                     </div>
                 </div>
             </div>
@@ -46,7 +45,7 @@
             <div class="row gy-4 align-items-center">
 
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
-                    <img src="https://placehold.co/600x400" class="img-fluid" alt="">
+                    <img src="https://placehold.co/600x400" class="img-fluid rounded-3" alt="">
                 </div>
 
                 <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200"
@@ -92,9 +91,8 @@
         <div class="row mb-5">
             <div class="col-12 text-center">
                 <div class="video-container" data-aos="fade-up" data-aos-duration="2000">
-                    <iframe width="560" height="315"
-                        src="https://www.youtube.com/embed/Hl8YaRuEoCE?si=3F8unmBfof-obWOl" title="YouTube video player"
-                        frameborder="0"
+                    <iframe id="video" src="https://www.youtube.com/embed/Hl8YaRuEoCE?si=3F8unmBfof-obWOl"
+                        title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
@@ -110,36 +108,76 @@
 
 @section('page-css')
     <style>
-        #small-logo {
-            position: absolute;
-            right: 32rem;
-            bottom: 1rem;
+        #logo-bem {
+            max-width: 30rem;
         }
 
+        #small-logo {
+            max-width: 150px;
+            position: absolute;
+            right: 33rem;
+            bottom: -2rem;
+        }
 
+        @media all and (min-width: 480px) and (max-width: 768px) {
+            #logo-bem {
+                width: 20rem;
+            }
+
+            #small-logo {
+                right: 23rem;
+                bottom: -2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #logo-bem {
+                width: 18rem;
+            }
+
+            #small-logo {
+                width: 120px;
+                right: 15rem;
+                bottom: -6rem;
+            }
+        }
+
+        
         .video-container {
-            border-radius: 20px;
             position: relative;
-            margin-left: 15rem;
-            margin-right: 15rem;
             padding-bottom: 56.25%;
-            /* 16:9 */
-            max-height: 0;
+            /* 16:9 aspect ratio */
+            height: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            overflow: hidden;
         }
 
         .video-container iframe {
             position: absolute;
             border-radius: 20px;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 75%;
-
+            width: 50%;
+            height: 50%;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        @media (max-width: 480px) {
+            .video-container iframe {
+                border-radius: 20px;
+                width: 85%;
+                height: 95%;
+                top: 50%;
+                /* left: 50%; */
+            }
         }
 
         .floating {
             animation-name: floating;
-            animation-duration: 5s;
+            animation-duration: 3s;
             animation-iteration-count: infinite;
             animation-timing-function: ease-in-out;
             margin-left: 30px;
@@ -152,7 +190,7 @@
             }
 
             50% {
-                transform: translate(0, 7px);
+                transform: translate(0, 15px);
             }
 
             100% {
