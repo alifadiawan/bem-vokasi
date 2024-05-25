@@ -11,30 +11,29 @@
 
                 <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a href="/" class="{{ (request()->is('/')) ? 'active' : '' }}">Home</a></li>
+                        <li><a href="/" class="{{ (request()->is('/')) ? 'active' : '' }} ">Home</a></li>
                         <li><a href="/about" class="{{ (request()->is('about')) ? 'active' : '' }}">About</a></li>
                         <li><a href="/kinerja" class="{{ (request()->is('kinerja')) ? 'active' : '' }}">Kinerja</a></li>
                         <li><a href="/profile" class="{{ (request()->is('profile')) ? 'active' : '' }}">Profile</a></li>
-                        <li><a href="vokasi-news" class="{{ (request()->is('vokasi-news')) ? 'active' : '' }}">News</a></li>
-                        {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i
-                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        {{-- <li class="dropdown"><a href="profile"><span>Profile</span> <i
+                            class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#">Dropdown 1</a></li>
-                                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                                            class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                    <ul>
-                                        <li><a href="#">Deep Dropdown 1</a></li>
-                                        <li><a href="#">Deep Dropdown 2</a></li>
-                                        <li><a href="#">Deep Dropdown 3</a></li>
-                                        <li><a href="#">Deep Dropdown 4</a></li>
-                                        <li><a href="#">Deep Dropdown 5</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Dropdown 2</a></li>
-                                <li><a href="#">Dropdown 3</a></li>
-                                <li><a href="#">Dropdown 4</a></li>
+                                <li><a href="kementrian-sekben">Kementrian Sekben</a></li>
+                                <li><a href="kementrian-pembedayaan-perempuan">Kementrian Pemberdayaan Perempuan</a></li>
+                                <li><a href="kementrian-media-kreatif">Kementrian Medraf</a></li>
+                                <li><a href="kementrian-advokesma">Kementrian Advokesma</a></li>
+                                <li><a href="kementrian-ilpres">Kementrian Ilpres</a></li>
+                                <li><a href="kementrian-sosial-politik">Kementrian Sospol</a></li>
+                                <li><a href="kementrian-luar-negeri">Kementrian Luar Negeri</a></li>
+                                <li><a href="kementrian-dalam-negeri">Kementrian Dalam Negeri</a></li>
+                                <li><a href="kementrian-pengmaspar">Kementrian Pengmaspar</a></li>
+                                <li><a href="kementrian-ekonomi-kreatif">Kementrian Ekraf</a></li>
+                                <li><a href="keagamaan-prada">Kementrian Prada</a></li>
+                                <li><a href="kementrian-keagamaan">Kementrian Keagamaan</a></li>
                             </ul>
-                        </li> --}}
+                        </li>    --}}
+                        <li><a href="vokasi-news" class="{{ (request()->is('vokasi-news')) ? 'active' : '' }}">News</a></li>
+                        </li>
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
