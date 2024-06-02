@@ -25,7 +25,7 @@
   --default-color-rgb: 68, 68, 68;
   --heading-color: #191919;
   --heading-color-rgb: 25, 25, 25;
-  --accent-color: #cc1616;
+  --accent-color: #ff6800;
   --accent-color-rgb: 204, 22, 22;
   --contrast-color: #ffffff;
   --contrast-color-rgb: 255, 255, 255;
@@ -34,9 +34,9 @@
 /* Nav Menu Colors */
 :root {
   --nav-color: #ffffff;
-  --nav-hover-color: #cc1616;
+  --nav-hover-color: #ff6800;
   --nav-dropdown-color: #212529;
-  --nav-dropdown-hover-color: #cc1616;
+  --nav-dropdown-hover-color: #ff6800;
   --nav-dropdown-background-color: #ffffff;
 }
 
@@ -216,7 +216,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: #e73232;
+    color: #ff6800;
     /* background-color: var(--nav-hover-color); */
   }
 
@@ -233,6 +233,10 @@ h6 {
     transition: 0.3s;
     z-index: 99;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .bi-x{
+    color: black;
   }
 
   .navmenu .dropdown ul li {
@@ -297,10 +301,12 @@ h6 {
   .navmenu ul {
     display: none;
     position: absolute;
-    inset: 60px 20px 20px 20px;
+    inset: 0px 0px 0px 150px;
+    /* inset: 60px 20px 20px 20px; */
     padding: 10px 0;
+    padding-top: 50px;
     margin: 0;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     background-color: var(--nav-dropdown-background-color);
     overflow-y: auto;
     transition: 0.3s;
@@ -346,7 +352,9 @@ h6 {
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    background-color: var(--nav-dropdown-hover-color);
+    color: white;
+    /* color: var(--nav-dropdown-hover-color); */
   }
 
   .navmenu .active i,
@@ -710,23 +718,23 @@ h6 {
 #preloader:before {
   content: "";
   position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #ffffff;
-  border-color: var(--accent-color) transparent var(--accent-color) transparent;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1.5s linear infinite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+  background-image: url('/ppp/img/logo_bem.png'); /* Replace with your image path */
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: fade-in-out-preloader 3s ease-in-out infinite;
 }
 
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
+@keyframes fade-in-out-preloader {
+  0%, 100% {
+    opacity: 0;
   }
-
-  100% {
-    transform: rotate(360deg);
+  50% {
+    opacity: 1;
   }
 }
 
