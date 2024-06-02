@@ -21,7 +21,7 @@
                         <img id="logo-bem" src="{{ asset('ppp/img/logo_bem.png') }}" alt="" data-aos="fade-left"
                             data-aos-duration="1500" data-aos-delay="1200" class="img-fluid floating">
                         <img src="{{ asset('ppp/img/vokasi-sigap.png') }}" alt="" id="small-logo"
-                            data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1500" class="img-fluid floating">
+                            data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1400" class="img-fluid floating">
                     </div>
                 </div>
             </div>
@@ -110,6 +110,7 @@
     <style>
         #logo-bem {
             max-width: 30rem;
+            animation: floating-variant-1 3s infinite ease-in-out;
         }
 
         #small-logo {
@@ -117,6 +118,7 @@
             position: absolute;
             right: 33rem;
             bottom: -2rem;
+            animation: floating-variant-2 5s infinite ease-in-out;
         }
 
         @media all and (min-width: 480px) and (max-width: 768px) {
@@ -142,7 +144,7 @@
             }
         }
 
-        
+
         .video-container {
             position: relative;
             padding-bottom: 56.25%;
@@ -164,7 +166,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
-        
+
         @media (max-width: 480px) {
             .video-container iframe {
                 border-radius: 20px;
@@ -176,15 +178,11 @@
         }
 
         .floating {
-            animation-name: floating;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease-in-out;
             margin-left: 30px;
             margin-top: 5px;
         }
 
-        @keyframes floating {
+        @keyframes floating-variant-1 {
             0% {
                 transform: translate(0, 0px);
             }
@@ -194,7 +192,29 @@
             }
 
             100% {
-                transform: translate(0, -0px);
+                transform: translate(0, 0px);
+            }
+        }
+
+        @keyframes floating-variant-2 {
+            0% {
+                transform: translate(0, 0px);
+            }
+
+            25% {
+                transform: translate(0, 10px);
+            }
+
+            50% {
+                transform: translate(0, -10px);
+            }
+
+            75% {
+                transform: translate(0, 10px);
+            }
+
+            100% {
+                transform: translate(0, 0px);
             }
         }
     </style>

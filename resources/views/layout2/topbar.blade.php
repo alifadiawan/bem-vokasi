@@ -5,7 +5,7 @@
             <div class="container position-relative d-flex align-items-center justify-content-between">
                 <a href="index.html" class="logo d-flex align-items-center">
                     <!-- Uncomment the line below if you also wish to use an image logo -->
-                    <img src="{{ asset('assets/img/logo_bem.png') }}" alt="">
+                    <img src="{{ asset('ppp/img/logo_bem.png') }}" alt="">
                     <h1 class="sitename">BEM VOKASI</h1>
                 </a>
 
@@ -35,7 +35,7 @@
                         <li><a href="vokasi-news" class="{{ (request()->is('vokasi-news')) ? 'active' : '' }}">News</a></li>
                         </li>
                     </ul>
-                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list "></i>
                 </nav>
             </div>
 
