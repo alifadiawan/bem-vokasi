@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg text-end">
-                    <img src="{{ asset('ppp/img/logo_bem.png') }}" alt="" class="img-fluid">
+                    <img id="logo-hover" src="{{ asset('ppp/img/logo_bem.png') }}" alt="" class="img-fluid">
                 </div>
             </div>
 
@@ -51,28 +51,54 @@
 
             <div class="row gap-3 gy-4 align-items-center">
 
+                <div class="col-12 col-lg order-1 order-lg-1 content" data-aos="fade-up" data-aos-delay="500">
+                    <h3>GARIS LENGKUNG</h3>
+                    <p class="fst-italic">
+                        Garis lengkung melambangkan persatuan,
+                        harmonisasi organisasi dan kedinamisan dalam
+                        berorganisasi untuk mewadahi Mahasiswa Vokasi
+                        dalam menggapai karya-karya dan prestasi serta
+                        aktif dalam berorganisasi
+                    </p>
+                    <h3>WARNA MERAH</h3>
+                    <p class="fst-italic">
+                        Warna merah bermakna melambangkan keberanian
+                        dan hasrat yang tinggi untuk menjadi penggerak
+                        membawa perubahan
+                    </p>
+                    <h3>WARNA ORANGE</h3>
+                    <p class="fst-italic">
+                        Warna orange bermakna melambangkan
+                        pengetahuan, optimisme, dan kejayaan untuk
+                        mewujudkan suatu inovasi yang membawa sebuah
+                        prestasi
+                    </p>
+                </div>
+
                 <div class="col-12 col-lg order-1 order-lg-1" data-aos="fade-up" data-aos-delay="100">
                     <img src="{{ asset('ppp/img/logo_bem.png') }}" class="img-fluid" alt="logo_bem">
                 </div>
 
-                <div class="col-12 col-lg order-2 order-lg-2 content" data-aos="fade-up" data-aos-delay="200">
-                    <h3>BEM FV UNAIR</h3>
+                <div class="col-12 col-lg order-2 order-lg-2 content" data-aos="fade-up" data-aos-delay="500">
+
+                    <h3>NAGA</h3>
                     <p class="fst-italic">
-                        BEM FV UB merupakan Badan Eksekutif Fakultas Vokasi Unversitas Brawijaya yang ingin memberikan
-                        kebermanfaatan sebagai episentrum karya kolaborasi, yaitu karya progresif, dedikatif, aspiratif, dan
-                        partisipatif.
+                        Naga melambangkan kekuatan, keberanian, dan
+                        keberuntungan dalam manifestasi kreativitas
+                        Mahasiswa Fakultas Vokasi dalam berkarya
                     </p>
-                    <h3>BEM FV UNAIR</h3>
+                    <h3>SAYAP KANAN</h3>
                     <p class="fst-italic">
-                        BEM FV UB merupakan Badan Eksekutif Fakultas Vokasi Unversitas Brawijaya yang ingin memberikan
-                        kebermanfaatan sebagai episentrum karya kolaborasi, yaitu karya progresif, dedikatif, aspiratif, dan
-                        partisipatif.
+                        Tiga helai Sayap di Sisi kanan merupakan Tri Dharma
+                        Perguruan Tinggi yaitu Pendidikan, Penelitian, dan
+                        Pengabdian kepada masyarakat
                     </p>
-                    <h3>BEM FV UNAIR</h3>
+                    <h3>SAYAP KIRI</h3>
                     <p class="fst-italic">
-                        BEM FV UB merupakan Badan Eksekutif Fakultas Vokasi Unversitas Brawijaya yang ingin memberikan
-                        kebermanfaatan sebagai episentrum karya kolaborasi, yaitu karya progresif, dedikatif, aspiratif, dan
-                        partisipatif.
+                        Tiga helai Sayap di Sisi kiri melambangkan 3
+                        departemen Fakultas Vokasi universitas Airlangga
+                        yaitu Departemen Bisnis, Departemen Teknik, dan
+                        Departemen Kesehatan
                     </p>
                 </div>
 
@@ -87,15 +113,20 @@
         <div class="container">
             <div class="row">
 
+                <div class="container section-title" data-aos="fade-up">
+                    <span class="">Visi & Misi<br></span>
+                    <h2 class="">Visi & Misi<br></h2>
+                </div>
+
                 <div class="col-lg-3">
                     <div class="card p-2">
                         <div class="card-body">
                             <h2 id="card-popup" class="text-center my-5">Visi</h2>
                             <p>
-                                BEM Vokasi Universitas Airlangga sebagai poros
-                                pergerakan dan pengembangan mahasiswa dalam
-                                mendorong kolaborasi nyata yang inovatif guna
-                                ewujudkan Fakultas Vokasi yang unggul dalam berkarya
+                                BEM Fakultas Vokasi hadir dengan visi sebagai pelopor reformasi untuk
+                                mengembangkan mahasiswa vokasi yang progresif, inovatif, dan unggul dalam berkarya. Kami
+                                berkomitmen untuk menghadirkan program-program yang tidak hanya inspiratif, tetapi juga
+                                berdampak nyata bagi seluruh civitas akademika.
                             </p>
                         </div>
                     </div>
@@ -105,26 +136,26 @@
                         <div class="card-body">
                             <h2 id="card-popup" class="text-center my-5">Misi</h2>
                             <ul>
-                                <li><strong>Pengembangan Organisasi</strong> <br> Membangun semangat dan ciptakan
-                                    keharmonisan
-                                    internal BEM bernafaskan integritas dan
-                                    profesionalitas</li>
+                                <li><strong>HARMONISASI ORGANISASI</strong> <br> Menciptakan iklim organisasi yang harmonis
+                                    serta
+                                    berdampak aktif bagi BEM Fakultas Vokasi UNAIR</li>
                                 <li><strong>Transparancy Organisasi</strong> <br> Menggencarkan legalitas informasi dalam
                                     mengembangkan reputasi Fakultas Vokasi Universitas
                                     Airlangga secara strategis melalui sistem informasi
                                     digital</li>
-                                <li><strong>SINERGITAS ORMAWA</strong> <br> Menjalin sinergitas dengan Himpunan Mahasiswa,
-                                    dan
-                                    Organisasi Kemahasiswaan lainnya di dalam lingkungan
-                                    UNAIR dalam upaya menciptakan iklim kolaboratif</li>
-                                <li><strong>AKTUALISASI POTENSI</strong> <br> Menyalurkan wadah berekspresi kepada Mahasiswa
-                                    Fakultas Vokasi Universitas Airlangga guna meningkatkar
-                                    kemampuan individu serta mengasah minat dan bakat
-                                    dalam meraih prestasi</li>
-                                <li><strong>AKTIF DAN BERDAMPAK</strong> <br> Berdedikasi tinggi dalam membangun mahasiswa
-                                    dan
-                                    masyarakat melalui program kerja berbasis kebutuhan
-                                    mahasiswa, urgensi dan Tri Dharma Perguruan Tinggi.</li>
+                                <li><strong>SINERGITAS MAHASISWA</strong> <br> Menjalin Sinergitas dengan Himpunan Mahasiswa
+                                    dan Lembaga kemahasiswaan di dalam lingkungan
+                                    Fakultas Vokasi UNAIR</li>
+                                <li><strong>AKTUALISASI KARYA</strong> <br> Memberi wadah berekspresi kepada Mahasiswa
+                                    Fakultas Vokasi guna membangun kapabilitas diri
+                                    dan mengasah minat bakat dalam menggapai prestasi</li>
+                                <li><strong>PERLUASAN INFORMASI</strong> <br> BMemperkuat reputasi profesional dan
+                                    legimitasi
+                                    informasi strategis melalui sistem informasi digital</li>
+                                <li><strong>PROAKTIF DAN PROGRESIF</strong> <br> Berdedikasi tinggi dalam memfasilitasi
+                                    mahasiswa
+                                    dan masyarakat dengan menciptakan program kerja
+                                    sesui kebutuhan dan Tri Dharma Perguruan Tinggi</li>
                             </ul>
                         </div>
                     </div>
@@ -138,9 +169,10 @@
 
 @section('page-css')
     <style>
+        #logo-hover:hover {}
 
         #card-popup {
-            background-color: rgb(255, 8, 0);
+            background-color: #ff6800;
             color: white;
             position: absolute;
             width: 150px;
