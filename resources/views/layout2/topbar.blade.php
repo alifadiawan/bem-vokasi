@@ -14,7 +14,7 @@
                         <li><a href="/" class="{{ (request()->is('/')) ? 'active' : '' }} ">Home</a></li>
                         <li><a href="/about" class="{{ (request()->is('about')) ? 'active' : '' }}">About</a></li>
                         <li><a href="/kinerja" class="{{ (request()->is('kinerja')) ? 'active' : '' }}">Kinerja</a></li>
-                        <li><a href="/profile" class="{{ (request()->is('profile')) ? 'active' : '' }}">Profile</a></li>
+                        <li><a href="/profile" class="{{ (request()->is('profile*')) ? 'active' : '' }}">Profile</a></li>
                         {{-- <li class="dropdown"><a href="profile"><span>Profile</span> <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>

@@ -4,8 +4,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section">
 
-        <img id="background" src="{{ asset('ppp/img/bg-unair.jpg') }}" alt="" data-aos="fade-down"
-            data-aos-duration="1000">
+        <img id="background" src="{{ asset('ppp/img/bg-unair.jpg') }}" alt="" >
 
         <div class="container">
             <div class="row justify-content-center align-items-center">
