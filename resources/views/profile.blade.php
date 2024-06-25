@@ -42,90 +42,74 @@
 
         <div class="container">
 
-            <div class="row gy-4 text-center align-items-center">
+            <div class="row gy-4 justify-content-around text-center align-items-center">
 
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-sekben">
                         <img src="{{ asset('ppp/img/kementrian/SEKBEN.png') }}" alt="" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px;">
-                        {{-- <P class="my-3" data-aos="fade-left" data-aos-duration="1500">KEMENTRIAN SEKBEN</P> --}}
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
                     </a>
                 </div>
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-pembedayaan-perempuan">
                         <img src="{{ asset('ppp/img/kementrian/PPKG.png') }}" alt="" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px;">
-                        {{-- <p data-aos="fade-left" data-aos-duration="1500">KEMENTRIAN PEMBERDAYAAN PEREMPUAN</p> --}}
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
                     </a>
                 </div>
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-media-kreatif">
                         <img src="{{ asset('ppp/img/kementrian/MEDKRAF.png') }}" alt="" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px;">
-                        {{-- <P data-aos="fade-left" data-aos-duration="1500">KEMENTRIAN MEDIKRAF</P> --}}
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
                     </a>
                 </div>
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-advokesma">
                         <img src="{{ asset('ppp/img/kementrian/ADVOKESMA.png') }}" alt="" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px;">
-                        {{-- <P data-aos="fade-left" data-aos-duration="1500">KEMENTRIAN ADVOKESMA</P> --}}
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
                     </a>
                 </div>
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-ilpres">
                         <img src="{{ asset('ppp/img/kementrian/ILPRES.png') }}" alt="" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px;">
-                        {{-- <P data-aos="fade-left" data-aos-duration="1500">KEMENTRIAN ILPRES</P> --}}
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
                     </a>
                 </div>
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-sosial-politik">
                         <img src="{{ asset('ppp/img/kementrian/SOSPOL.png') }}" alt="" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px;">
-                        {{-- <P data-aos="fade-left" data-aos-duration="1500">KEMENTRIAN SOSPOL</P> --}}
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
                     </a>
                 </div>
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-luar-negeri">
-                        <img src="{{ asset('ppp/img/kementrian/HUBLUs.png') }}" alt="luar-negeri" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px;">
-                        {{-- <p>KEMENTRIAN LUAR NEGERI</p> --}}
+                        <img src="{{ asset('ppp/img/kementrian/HUBLU.png') }}" alt="luar-negeri" data-aos="fade-left"
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
+                       
                     </a>
                 </div>
-                <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
-                    <a href="/profile/kementrian-sosial-politik">
-                        <img src="{{ asset('ppp/img/kementrian/SOSPOLs.png') }}" alt="dalam-negeri" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px;">
-                        {{-- <p>KEMENTRIAN DALAM NEGERI</p> --}}
-                    </a>
-                </div>
+
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-pengmaspar">
                         <img src="{{ asset('ppp/img/kementrian/PENGMAS.png') }}" alt="" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px">
-                        {{-- <P data-aos="fade-left" data-aos-duration="1500">KEMENTRIAN PENGMASPAR</P> --}}
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px">
                     </a>
                 </div>
                 <div class="pb-5 col-12 col-lg-4"data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-ekonomi-kreatif">
                         <img src="{{ asset('ppp/img/kementrian/EKRAF.png') }}" alt="" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px;">
-                        {{-- <P data-aos="fade-left" data-aos-duration="1500">KEMENTRIAN EKRAF</P> --}}
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
                     </a>
                 </div>
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-prada">
                         <img src="{{ asset('ppp/img/kementrian/PRADA.png') }}" alt="" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid" style="max-width: 120px;">
-                        {{-- <P data-aos="fade-left" data-aos-duration="1500">KEMENTRIAN PRADA</P> --}}
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
                     </a>
                 </div>
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-keagamaan">
                         <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN.png') }}" alt="" data-aos="fade-left"
-                            data-aos-duration="1500" class="img-fluid">
-                        {{-- <P data-aos="fade-left" data-aos-duration="1500">KEMENTRIAN KEAGAMAAN</P> --}}
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
                     </a>
                 </div>
 

@@ -828,7 +828,7 @@ section,
 .section {
   color: var(--default-color);
   /* background-color: var(--background-color); */
-  background-image: url('/ppp/img/background.jpg');
+  /* background-image: url('/ppp/img/background.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -25,7 +25,7 @@ class KementrianController extends Controller
         return view ('kementrian.sospol');
     }
     public function dagri (){
-        return view ('kementrian.sekben');
+        return view ('kementrian.hublu');
     }
     public function pengmaspar (){
         return view ('kementrian.pengmas');

@@ -5,7 +5,8 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">MEDKRAF</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">MEDKRAF</span>
+                </h3>
             </div>
             <div class="row justify-content-center">
 
@@ -36,8 +37,8 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <div class="col">
-                                    <img src="{{ asset('ppp/img/kementrian/medkraf/andi_akhsanul.png') }}"
-                                        class="img-fluid" alt="" style="max-height: 12rem;">
+                                    <img src="{{ asset('ppp/img/kementrian/medkraf/andi_akhsanul.png') }}" class="img-fluid"
+                                        alt="" style="max-height: 12rem;">
                                 </div>
                                 <div class="col">
                                     <div class="content">
@@ -113,10 +114,15 @@
                                     quisquam similique. Cupiditate quam autem aspernatur.
                                 </p>
                             </div>
-                            <hr>
+
                             <div class="col-12">
                                 <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
+
+                            <hr>
+                            <h3 class="text-center fw-bold">Dirjen MEDKRAF</h3>
+                            <hr>
+
                             <div class="row row-cols-2">
                                 <div class="col">
                                     <div class="card mt-3">
@@ -156,13 +162,18 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <hr>
+                                <h3 class="text-center fw-bold">Staff</h3>
+                                <hr>
+                                
                                 <div class="col">
                                     <div class="card mt-3">
                                         <div class="card-body">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/MEDKRAF/SYIFANI_AULIA.jpg
-                                                    ') }}"
+                                                                                                                                                            ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
@@ -277,8 +288,8 @@
         }
 
         /* body{
-                            background-color: rgb(47, 47, 47);
-                        } */
+                                    background-color: rgb(47, 47, 47);
+                                } */
     </style>
 @endsection
 
