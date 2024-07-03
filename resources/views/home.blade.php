@@ -4,7 +4,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section">
 
-        <img id="background" src="{{ asset('ppp/img/bg-unair.jpg') }}" alt="" >
+        <img id="background" src="{{ asset('ppp/img/bg-unair.jpg') }}" alt="">
 
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -29,7 +29,7 @@
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="about" class="about section mt-5 mb-0">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-down">
@@ -51,18 +51,23 @@
                     data-aos-duration="800">
                     <h3>BEM FV UNAIR</h3>
                     <p class="fst-italic">
-                        Dengan semangat dalam mewujudkan konstribusi nyata, Badan Eksekutif Mahasiswa Fakultas Vokasi
-                        Universitas Airlangga telah hadir sebagai wadah inspirasi dan aspirasi mahasiswa Fakultas Vokasi
-                        Universitas Airlangga untuk terus bergerak maju dan berkolaborasi.
+                        Dengan bangga kami perkenalkan wajah-wajah baru dari BEM Fakultas Vokasi 2024.
 
-                        Kabinet Cakrabinaya
-                        Semangat Membara Wujudkan Kontribusi Nyata
+                        Tahun ini, BEM Fakultas Vokasi hadir dengan visi sebagai pelopor reformasi untuk mengembangkan
+                        mahasiswa vokasi yang progresif, inovatif, dan unggul dalam berkarya. Kami berkomitmen untuk
+                        menghadirkan program-program yang tidak hanya inspiratif, tetapi juga berdampak nyata bagi seluruh
+                        civitas akademika.
+                        <br>
+                        <br>
+                        Kabinet Gelora Karya
+                        <br>
+                        Melangkah bersama, wujudkan karya nyata!
                     </p>
-                    <p class="fst-italic">
+                    {{-- <p class="fst-italic">
                         Menjadi lebih dari sekedar pilar sentral bagi rumah mahasiswa Fakultas Vokasi UB, dalam
                         mengembangkan sumber daya yang proaktif, membangun poros pengembangan bagi mahasiswa yang inklusif,
                         memberikan pelayanan optimal melalui eskalasi advokasi, serta membangun ruang pasrtisipasi dan
-                        aktif.</p>
+                        aktif.</p> --}}
                     {{-- <ul>
                     <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
                             consequat.</span></li>
@@ -90,7 +95,7 @@
         <div class="row mb-5">
             <div class="col-12 text-center">
                 <div class="video-container" data-aos="fade-up" data-aos-duration="2000">
-                    <iframe id="video" src="https://www.youtube.com/embed/Hl8YaRuEoCE?si=3F8unmBfof-obWOl"
+                    <iframe id="video" src="https://www.youtube.com/embed/SFxs6S3BEys?si=pxFhwMNja7XC2lL9"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
