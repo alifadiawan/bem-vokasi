@@ -6,6 +6,8 @@
 
         <img id="background" src="{{ asset('ppp/img/profile-bg.webp') }}" alt="" data-aos="fade-down"
             data-aos-duration="1000">
+        <img id="background" src="{{ asset('ppp/img/profile-bg.webp') }}" alt="" data-aos="fade-down"
+            data-aos-duration="1000">
 
         <div class="container">
             <div class="row text-center justify-content-center align-items-center">
@@ -84,7 +86,7 @@
                     <a href="/profile/kementrian-luar-negeri">
                         <img src="{{ asset('ppp/img/kementrian/HUBLU.png') }}" alt="luar-negeri" data-aos="fade-left"
                             data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
-                       
+
                     </a>
                 </div>
 
@@ -116,6 +118,7 @@
 
 
             </div>
+
 
         </div>
 
