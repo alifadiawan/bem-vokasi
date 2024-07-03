@@ -1,68 +1,51 @@
 <footer id="footer" class="footer position-relative">
+
     <div class="container footer-top">
-        <div class="row gy-4">
+        <div class="row gy-4 justify-content-center mb-4">
+
             <div class="col-lg-4 col-md-6">
-                <div class="footer-about">
-                    <a href="index.html" class="logo sitename">Day</a>
-                    <div class="footer-contact pt-3">
-                        <p>A108 Adam Street</p>
-                        <p>New York, NY 535022</p>
-                        <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                        <p><strong>Email:</strong> <span>info@example.com</span></p>
-                    </div>
-                    <div class="social-links d-flex mt-4">
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                </div>
+                <img src="{{ asset('ppp/img/logo_bem.png') }}" alt="" class="img-fluid w-50">
             </div>
 
-            <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Useful Links</h4>
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-1 col-md-3 footer-links">
+                <h4>Halaman</h4>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Terms of service</a></li>
-                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="/" class="{{ request()->is('/') ? 'active' : '' }} ">Home</a></li>
+                    <li><a href="/about" class="{{ request()->is('about') ? 'active' : '' }}">About</a></li>
+                    <li><a href="/kinerja" class="{{ request()->is('kinerja') ? 'active' : '' }}">Kinerja</a></li>
+                    <li><a href="/profile" class="{{ request()->is('profile*') ? 'active' : '' }}">Profile</a></li>
                 </ul>
             </div>
 
-            <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Our Services</h4>
-                <ul>
+            <div class="col-lg-3 col-md-3 footer-links  ">
+                <h4>Kontak</h4>
+                <p>Dharmawangsa Dalam Selatan No.28 – 30, Surabaya Indonesia 60286
+                </p>
+                <p>Telp. : +62 – 031 – 5033869, 031 – 5053156</p>
+                {{-- <ul>
                     <li><a href="#">Web Design</a></li>
                     <li><a href="#">Web Development</a></li>
                     <li><a href="#">Product Management</a></li>
                     <li><a href="#">Marketing</a></li>
                     <li><a href="#">Graphic Design</a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-12 footer-newsletter">
-                <h4>Our Newsletter</h4>
-                <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-                <form action="forms/newsletter.php" method="post" class="php-email-form">
-                    <div class="newsletter-form"><input type="email" name="email"><input type="submit"
-                            value="Subscribe"></div>
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-                </form>
+                </ul> --}}
             </div>
 
         </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
+    <hr>
+
+    <div class="container footer text-center">
         <div class="row justify-content-center">
             <div class="col">
-                <p>© <span>Copyright</span> <strong class="px-1 sitename">Day</strong> <span>All Rights Reserved</span></p>
-            </div>
-            <div class="col">
-                Designed by <a href="/kementrian-media-kreatif">Media Kreatif</a>
+                Designed & Developed by Kementrian <a href="/profile/kementrian-media-kreatif">Media Kreatif dan
+                    Digitalisasi</a>
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">BEM VOKASI UNAIR 2024</strong> <span>All Rights
+                        Reserved</span>
+                </p>
             </div>
         </div>
         <div class="credits">

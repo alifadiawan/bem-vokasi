@@ -34,7 +34,7 @@
 
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="about" class="about">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-down">
