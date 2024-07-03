@@ -119,14 +119,14 @@
                                 <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
-                            <hr>
-                            <h3 class="text-center fw-bold">Dirjen SOSPOL</h3>
-                            <hr>
+                            
+                            <h3 class="text-center fw-bold mt-5 mb-4">Dirjen SOSPOL</h3>
+                            
 
                             <div class="row justify-content-around row-cols-3">
 
                                 <div class="col">
-                                    <div class="card mt-3">
+                                    <div class="card mt-3 h-100">
                                         <div class="card-body ">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
@@ -145,7 +145,7 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card mt-3 ">
+                                    <div class="card mt-3 h-100">
                                         <div class="card-body">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
@@ -164,7 +164,7 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card mt-3 ">
+                                    <div class="card mt-3 h-100">
                                         <div class="card-body">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
@@ -185,15 +185,15 @@
 
                             </div>
 
-                            <hr>
-                            <h3 class="text-center fw-bold">Staff</h3>
-                            <hr>
+                            
+                            <h3 class="text-center fw-bold mt-5 mb-4">Staff</h3>
+                            
 
                             <div class="row justify-content-around row-cols-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Rayna_Hatti_Whynda_Staff_Kaspolstrat-removebg-preview.png') }}"
@@ -210,7 +210,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Nadjwa Putri Salsabila_staff kaspolstart.png') }}"
@@ -227,7 +227,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Made Angga J.S_staf vispro.png') }}"
@@ -244,7 +244,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/DheaFauziah_Staff Agipro.png') }}"
@@ -261,7 +261,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Hayuna Adinda Widianti_ Staff Kapolstrat.png') }}"
@@ -278,7 +278,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Denis Chrisna Manggala_Staff Agipro.png') }}"
@@ -295,7 +295,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Chaterina Balqis S S-Staff Kaspolstrat.png') }}"
@@ -312,7 +312,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Azahra Nasya Syarofah_Staff Vispro.png') }}"
@@ -329,7 +329,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/KhoirotAkbar_Staff_Agipro-removebg-preview.png') }}"
@@ -346,7 +346,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Aura_Ayu_Ramadhani__staff_Agitasi_Propaganda_-removebg-preview.png') }}"
@@ -363,7 +363,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Ayisya_Alexandra_Staff_Vispro-removebg-preview.png') }}"
@@ -380,7 +380,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Apriza Windrasari_Sekretaris Sospol.png') }}"

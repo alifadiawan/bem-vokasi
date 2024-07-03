@@ -119,9 +119,9 @@
                                 <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
-                            <hr>
-                            <h3 class="text-center fw-bold">Dirjen Advokesma</h3>
-                            <hr>
+                            
+                            <h3 class="text-center fw-bold mt-5 mb-4">Dirjen Advokesma</h3>
+                            
 
                             <div class="row justify-content-around row-cols-3">
 
@@ -166,15 +166,15 @@
 
                             </div>
 
-                            <hr>
-                            <h3 class="text-center fw-bold">Staff</h3>
-                            <hr>
+                            
+                            <h3 class="text-center fw-bold mt-5 mb-4">Staff</h3>
+                            
 
                             <div class="row justify-content-around row-cols-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Siti Nur Rohmawatil Ula_Staff Kesejahteraan Mahasiswa.png') }}"
@@ -191,7 +191,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Putri Citra Rafida_Staff Advokasi dan Kebijakan Kampus.png') }}"
@@ -208,7 +208,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Naila Nurshabrina Dwi Evria_Staff Kesejahteraan Mahasiswa .png') }}"
@@ -225,7 +225,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Miranda Janice Fazha C.H._staff Advokasi dan Kebijakan Kampus.png') }}"
@@ -242,7 +242,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Hanifah Az Zahra Hasoloan_Staff Advokasi dan Kebijakan Kampus.png') }}"
@@ -259,7 +259,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Ellysia Dea Calista_staff kesejahteraan mahasiswa.png') }}"
@@ -276,7 +276,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Davina Alimashafa_Staff Kesejahteraan Mahasiswa.png') }}"
@@ -293,7 +293,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Cynthia Nur Savitri_Staff Kesejahteraan Mahasiswa.png') }}"
@@ -310,7 +310,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Binar Arifah Insani_Staff Kesejahteraan Mahasiswa.png') }}"
@@ -327,7 +327,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Ayu Anastasya_Staff Advokasi dan Kebijakan Kampus.png') }}"
@@ -344,7 +344,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Atha Salsabila_Staff Advokasi dan Kebijakan Kampus.png') }}"
@@ -361,7 +361,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Anggita Trisnandia Arifin_Staff Kesejahteraan Mahasiswa.png') }}"
@@ -378,7 +378,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/advokesma/Armaniella Virelita Maharani_Staff Kesejahteraan Mahasiswa.png') }}"

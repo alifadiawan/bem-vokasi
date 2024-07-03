@@ -119,9 +119,9 @@
                                 <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
-                            <hr>
-                            <h3 class="text-center fw-bold">Dirjen EKRAF</h3>
-                            <hr>
+                            
+                            <h3 class="text-center fw-bold mt-5 mb-4">Dirjen EKRAF</h3>
+                            
 
                             <div class="row justify-content-around row-cols-3">
 
@@ -166,15 +166,15 @@
 
                             </div>
 
-                            <hr>
-                            <h3 class="text-center fw-bold">Staff</h3>
-                            <hr>
+                            
+                            <h3 class="text-center fw-bold mt-5 mb-4">Staff</h3>
+                            
 
                             <div class="row justify-content-around row-cols-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Tiara Zafira_Staff Sponsor.png') }}"
@@ -191,7 +191,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Thania Mahmud_Staff KWU.png') }}"
@@ -208,7 +208,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Siswi Higa Dinata_Staff KWU.png') }}"
@@ -225,7 +225,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Shafira Putri_Staff KWU Kementrian Ekonomi Kreatif.png') }}"
@@ -242,7 +242,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Shafira Dihyan_Staff KWU Ekonomi Kreatif.png') }}"
@@ -259,7 +259,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Christy ariyani br surbakti_staff sponsor.png') }}"
@@ -276,7 +276,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Restoe Boemi Auliya Al Jailani_Staff KWU.png') }}"
@@ -293,7 +293,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Resa Dwi Anggreini_Staff KWU Ekonomi Kreatif.png') }}"
@@ -310,7 +310,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Pradigma Arya Dewanata_Staff Sponsorship.png') }}"
@@ -327,7 +327,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Dwi Nur Cahyani_Staff Sponsorship ekraf.png') }}"
@@ -344,7 +344,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Cindy Nerrizza Aprilia_Staff Sponsorship.png') }}"
@@ -361,7 +361,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Anni Fitriya staff sponsorship_ekonomi kreatif.png') }}"

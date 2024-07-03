@@ -120,9 +120,9 @@
                                 <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
-                            <hr>
-                            <h3 class="text-center fw-bold">Dirjen PRADA</h3>
-                            <hr>
+                            
+                            <h3 class="text-center fw-bold mt-5 mb-4">Dirjen PRADA</h3>
+                            
 
                             <div class="row justify-content-around row-cols-3">
 
@@ -179,15 +179,15 @@
 
                             </div>
 
-                            <hr>
-                            <h3 class="text-center fw-bold">Staff</h3>
-                            <hr>
+                            
+                            <h3 class="text-center fw-bold mt-5 mb-4">Staff</h3>
+                            
 
                             <div class="row justify-content-around row-cols-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/shofi layuza fitri arifta _staf olahraga.png') }}"
@@ -204,7 +204,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/Hasya Putri Talitha_Staff Budaya.png') }}"
@@ -221,7 +221,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/Ananda Nur Rohmah Kurniasari_staff budaya.png') }}"
@@ -238,7 +238,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/Putri_Nurul_Amalia_Staff_Budaya-removebg-preview.png') }}"
@@ -255,7 +255,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/Ahmad_Misbahul_Farih_Staff_budaya_-removebg-preview.png') }}"
@@ -272,7 +272,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/Gilang Rachman Danny_STAFF OLAHRAGA.png') }}"
@@ -289,7 +289,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/Ekky Regita Adelia_Staff Pemuda.png') }}"
@@ -306,7 +306,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/Afifah Sukiman_Staf Pemuda.png') }}"
@@ -323,7 +323,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/AGATHA_AURELIA_ABIGAIL__STAF_KEPEMUDAAN-removebg-preview.png') }}"
@@ -340,7 +340,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/Hendy Febrian Prananda_Staff Pemuda.png') }}"
@@ -357,7 +357,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/SESILIA FEBRIANTI_STAFF OLAHRAGA.png') }}"
@@ -374,7 +374,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/Muhammad Nabil Athollah_Staf olahraga_Foto1.png') }}"
@@ -391,7 +391,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/ZITA AZRA AZARINE NABILAH_STAFF OLAHRAGA.png') }}"
@@ -408,7 +408,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PRADA/Afifah Sukiman_Staf Pemuda.png') }}"

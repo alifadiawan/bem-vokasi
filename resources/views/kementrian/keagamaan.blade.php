@@ -119,9 +119,9 @@
                                 <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
-                            <hr>
-                            <h3 class="text-center fw-bold">Dirjen KEAGAMAAN</h3>
-                            <hr>
+                            
+                            <h3 class="text-center fw-bold mt-5 mb-4">Dirjen KEAGAMAAN</h3>
+                            
 
                             <div class="row justify-content-around row-cols-3">
 
@@ -185,15 +185,15 @@
 
                             </div>
 
-                            <hr>
-                            <h3 class="text-center fw-bold">Staff</h3>
-                            <hr>
+                            
+                            <h3 class="text-center fw-bold mt-5 mb-4">Staff</h3>
+                            
 
                             <div class="row justify-content-around row-cols-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Athifa_Ibtisama_Fawwazah_Staff_Pengembangan_Rohani-removebg-preview.png') }}"
@@ -210,7 +210,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Muhammad Catra Hanif _Azmi_staff pengembangan rohani.png') }}"
@@ -227,7 +227,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Indah Tasya Kurina_Staff Aspirasi Rohani.png') }}"
@@ -244,7 +244,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Levina Kirana Armilda_ Staff Pengembangan Rohani.png') }}"
@@ -261,7 +261,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Intan Eka Kusuma Wardani_Staff Spiritual.png') }}"
@@ -278,7 +278,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/HIQNI_SABILATUZZAIDAH_STAFF_Pengembangan_rohani-removebg-preview.png') }}"
@@ -295,7 +295,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/ELSA_WIDYANTARI_AZIZAH_Staff_Spritual_-removebg-preview.png') }}"
@@ -312,7 +312,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/THEORA SERVANKA_STAFF ASPIRASI ROHANI.png') }}"
@@ -329,7 +329,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/AYU ALIFIA ANGGRAINI_STAFF SPIRITUAL_.png') }}"
@@ -346,7 +346,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/NAJWA A_SAL AURORA_STAFF SPIRITUAL .png') }}"
@@ -363,7 +363,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body ">
+                                        <div class="card-body m-0 pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Septi Anggia Asifa Putri_Staff Aspirasi Rohani.png') }}"
