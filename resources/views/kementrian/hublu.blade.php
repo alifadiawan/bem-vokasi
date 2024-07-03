@@ -119,9 +119,9 @@
                                 <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
-                            
-                            <h3 class="text-center fw-bold mt-5 mb-4">Dirjen HUBLU</h3>
-                            
+                            <hr>
+                            <h3 class="text-center fw-bold">Dirjen HUBLU</h3>
+                            <hr>
 
                             <div class="row justify-content-around row-cols-3">
 
@@ -166,15 +166,15 @@
 
                             </div>
 
-                            
-                            <h3 class="text-center fw-bold mt-5 mb-4">Staff</h3>
-                            
+                            <hr>
+                            <h3 class="text-center fw-bold">Staff</h3>
+                            <hr>
 
                             <div class="row justify-content-around row-cols-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Aulia_Friska__Staff_mitra_luar_negri-removebg-preview.png') }}"
@@ -191,7 +191,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/ALWI Akmal_staf mitra dalam negeri.png') }}"
@@ -208,7 +208,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Asti Evellyna Callysta_Staff Mitra Dalam Negeri.png') }}"
@@ -225,7 +225,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Zony Lym _ STAFF mitra dalam negeri_.png') }}"
@@ -242,7 +242,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Dea Vania_Staff Mitra Luar Negeri.png') }}"
@@ -259,7 +259,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Mutia Nastiti_Staff Mitra Dalam Negri.png') }}"
@@ -276,7 +276,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Ilham Akbar Maulana_Staff Mitra Luar Negeri.png') }}"
@@ -293,7 +293,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Aliyah mutiara_Staff Mitra Luar Negri.png') }}"
@@ -310,7 +310,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Vio Aldi_Staf Mitra Dalam Negeri.png') }}"
@@ -327,7 +327,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Euniqe Prischilla Soegiharto_Staff Mitra Luar.png') }}"
@@ -344,7 +344,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Andi muhammad hayqal daffa staff mitra luar negeri.png') }}"
@@ -361,7 +361,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Hanifah Abidah Staff Mitra luar negeri_.png') }}"
@@ -378,7 +378,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Elysia Dyah Puspitasari_Mitra Dalam Negeri_.png') }}"
@@ -395,7 +395,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/HUBLU/Senia Firda Putri Hermawan_Staff Mitra Dalam Negeri.png') }}"

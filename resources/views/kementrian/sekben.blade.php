@@ -96,7 +96,7 @@
                     </div>
                 </div>
 
-
+                
                 <div class="col-12 col-md-8 col-lg-8">
                     <div class="card">
                         <div class="card-body px-5">
@@ -163,7 +163,7 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                
                             </div>
 
                             <hr>
@@ -174,7 +174,7 @@
 
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SEKBEN/Azizatul_Nazwa Salsabilla_Staff Sekre.png') }}"
@@ -191,7 +191,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SEKBEN/Fiza_Aqila_Staff Bendahara_.png') }}"
@@ -208,7 +208,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SEKBEN/Nadya_Tikasari Putri_Staff Bendahara.png') }}"
@@ -225,7 +225,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SEKBEN/Ravena_Ananda_Staff Sekretaris.png') }}"
@@ -242,7 +242,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SEKBEN/Shivani_Agustina_Staff Bendahara.png') }}"
@@ -259,7 +259,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SEKBEN/Yuro_Arumandji_staff sekretaris.png') }}"
@@ -276,7 +276,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SEKBEN/Hilda_Isnaeni__Staff_Sekretaris.png') }}"
@@ -293,7 +293,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SEKBEN/Qurrata_A_yunin_Staff_Bendahara.png') }}"
@@ -308,7 +308,7 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                
                             </div>
 
 
@@ -338,8 +338,8 @@
         }
 
         /* body{
-                                background-color: rgb(47, 47, 47);
-                            } */
+                            background-color: rgb(47, 47, 47);
+                        } */
     </style>
 @endsection
 

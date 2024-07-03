@@ -166,14 +166,14 @@
                                 <hr>
                                 <h3 class="text-center fw-bold">Staff</h3>
                                 <hr>
-
+                                
                                 <div class="col">
                                     <div class="card mt-3">
                                         <div class="card-body">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/MEDKRAF/SYIFANI_AULIA.jpg
-                                                                                                                                                                                                                                                                                                                        ') }}"
+                                                                                                                                                            ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
@@ -288,8 +288,8 @@
         }
 
         /* body{
-                                                background-color: rgb(47, 47, 47);
-                                            } */
+                                    background-color: rgb(47, 47, 47);
+                                } */
     </style>
 @endsection
 

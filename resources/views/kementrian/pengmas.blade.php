@@ -1,5 +1,4 @@
 @extends('layout2.main')
-@section('page-title', ' - Pengabdian Masyarakat')
 @section('content')
 
     <!-- Headline -->
@@ -115,15 +114,14 @@
                                     quisquam similique. Cupiditate quam autem aspernatur.
                                 </p>
                             </div>
-
                             <hr>
                             <div class="col-12">
                                 <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
-                            
-                            <h3 class="text-center fw-bold mt-5 mb-4">Dirjen PENGMAS</h3>
-                            
+                            <hr>
+                            <h3 class="text-center fw-bold">Dirjen PENGMAS</h3>
+                            <hr>
 
                             <div class="row justify-content-around row-cols-3">
 
@@ -168,15 +166,15 @@
 
                             </div>
 
-                            
-                            <h3 class="text-center fw-bold mt-5 mb-4">Staff</h3>
-                            
+                            <hr>
+                            <h3 class="text-center fw-bold">Staff</h3>
+                            <hr>
 
                             <div class="row justify-content-around row-cols-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Ligar Melati_Bendahara PENGMAS.png') }}"
@@ -193,7 +191,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Muhammad Farhan Aminazaruddin_Staff Pengembangan Generasi Muda.png') }}"
@@ -210,7 +208,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Masyidha F. Putri_ Sekretaris PENGMAS.png') }}"
@@ -227,7 +225,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Bertrand Ivano Syahputra_Staff Abdi Masyarakat.png') }}"
@@ -244,7 +242,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Abraham Arby R._Staff Abdi Masyarakat.png') }}"
@@ -261,7 +259,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Sinta Rahmah A_Staff Pengembangan Generasi Muda.png') }}"
@@ -278,7 +276,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Hendy Nur Rohmat Faiz_Staff Abdi Masyarakat.png') }}"
@@ -295,7 +293,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Devita Rachmasari_Staf Pengembangan Generasi Muda.png') }}"
@@ -312,7 +310,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Muhammad Ridha Hafidz_Staff Pengembangan Generasi Muda.png') }}"
@@ -329,7 +327,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Sabitah Naura E.P_Staff Abdi Masyarakat.png') }}"
@@ -346,7 +344,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Iklimatul Fauriyah_StaffAbdi Masyarakat.png') }}"
@@ -363,7 +361,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body m-0 pb-0 pt-3">
+                                        <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/Fadjri Anda Lusia_Staff Pengembangan Generasi Muda.png') }}"
