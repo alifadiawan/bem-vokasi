@@ -711,7 +711,8 @@ h6 {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  background: var(--background-color);
+  /* background: var(--background-color); */
+  background: white;
   transition: all 0.6s ease-out;
 }
 
@@ -826,7 +827,11 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  /* background-image: url('/ppp/img/background.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 60px 0;
   scroll-margin-top: 100px;
   overflow: clip;

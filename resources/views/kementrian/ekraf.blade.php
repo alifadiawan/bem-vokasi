@@ -5,7 +5,7 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">SEKBEN</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">EKRAF</span></h3>
             </div>
             <div class="row justify-content-center">
 
@@ -14,15 +14,15 @@
                     {{-- logo --}}
                     <div class="card">
                         <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="col">
-                                    <img src="{{ asset('ppp/img/kementrian/PPKG.png') }}" class="img-fluid" alt=""
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <img src="{{ asset('ppp/img/kementrian/EKRAF.png') }}" class="img-fluid" alt=""
                                         style="max-width: 12rem;">
                                 </div>
-                                <div class="col">
+                                <div class="col-6">
                                     <div class="content">
-                                        <h1 class="fw-bold m-0 p-0">SEKBEN</h1>
-                                        <h5 class="m-0 p-0">Sekertaris dan Bendahara Kabinet</h5>
+                                        <h3 class="fw-bold m-0 p-0">EKRAF</h3>
+                                        <p class="m-0 p-0">Ekonomi Kreatif</p>
                                     </div>
                                 </div>
                             </div>
@@ -36,14 +36,14 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <div class="col">
-                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Eva_Feliana Maelani_Menteri.png') }}"
+                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Farrel Shaquille Avilen_Menteri.png') }}"
                                         class="img-fluid" alt="" style="max-height: 12rem;">
                                 </div>
                                 <div class="col">
                                     <div class="content">
-                                        <h2 class="fw-bold m-0 p-0">Eva Feliana</h2>
-                                        <h5 class="m-0 p-0">Menteri SEKBEN Kabinet</h5>
-                                        <pc class="fw-light">D4 Tek. Laboratorium Medik 2022</pc>
+                                        <h2 class="fw-bold m-0 p-0">Farrel Shaquille</h2>
+                                        <h5 class="m-0 p-0">Menteri EKRAF</h5>
+                                        <pc class="fw-light">D4 TRIK 2022</pc>
                                     </div>
                                     <div class="icons">
                                         <a href=""><i class="bi bi-instagram"></i></a>
@@ -96,12 +96,12 @@
                     </div>
                 </div>
 
-                
+
                 <div class="col-12 col-md-8 col-lg-8">
                     <div class="card">
                         <div class="card-body px-5">
                             <div class="col-12">
-                                <h2 class="fw-bold">Kementrian <br> Sekertaris dan Bendahara Kabinet</h2>
+                                <h2 class="fw-bold">Kementrian <br> Ekonomi Kreatif</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
                                     officiis officia, quae fugit beatae aliquid minima laborum exercitationem maiores
                                     aperiam,
@@ -120,7 +120,7 @@
                             </div>
 
                             <hr>
-                            <h3 class="text-center fw-bold">Dirjen SEKBEN</h3>
+                            <h3 class="text-center fw-bold">Dirjen EKRAF</h3>
                             <hr>
 
                             <div class="row justify-content-around row-cols-3">
@@ -130,14 +130,14 @@
                                         <div class="card-body ">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Roro_Dinda_Salsabilla Permatasari_Dirjen_Kesekretariatan_.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Nanda Rizki NurKholifah_Dirjen KWU.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Roro Dinda Salsabilla Permatasari</h5>
-                                                        <p class="m-0 p-0">DIRJEN Kesekretariantan</p>
-                                                        <pc class="fw-light">D4 Manajemen Perkantoran Digital 2022</pc>
+                                                        <h5 class="fw-bold m-0 p-0">Nanda Rizki Nurkholifah</h5>
+                                                        <p class="m-0 p-0">DIRJEN Kewirausahaan</p>
+                                                        <pc class="fw-light">D4 Tek.Radiologi Pencitraan 2022</pc>
                                                     </div>
                                                 </div>
                                             </div>
@@ -149,21 +149,21 @@
                                         <div class="card-body">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/shintya_putri_ dirjen kebendaharaan_.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Sepandan Pangastuti_Dirjen Sponsorship.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Shintya Putri</h5>
-                                                        <p class="m-0 p-0">DIRJEN Kebendaharaan</p>
-                                                        <pc class="fw-light">D4 Perbankan dan Keuangan 2022</pc>
+                                                        <h5 class="fw-bold m-0 p-0">Sepandan Pangastuti</h5>
+                                                        <p class="m-0 p-0">DIRJEN Sponsorship</p>
+                                                        <pc class="fw-light">D4 Manajemen Perhotelan 2021</pc>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
 
                             <hr>
@@ -177,12 +177,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Azizatul_Nazwa Salsabilla_Staff Sekre.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Tiara Zafira_Staff Sponsor.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Azizatul Nazwa Salsabilla</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Tiara Zafira</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -194,12 +194,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Fiza_Aqila_Staff Bendahara_.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Thania Mahmud_Staff KWU.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Fiza Aqila</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Thania Mahmud</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -211,12 +211,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Nadya_Tikasari Putri_Staff Bendahara.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Siswi Higa Dinata_Staff KWU.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Nadya Tikasari Putri</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Siswi Higa Dinata</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -228,12 +228,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Ravena_Ananda_Staff Sekretaris.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Shafira Putri_Staff KWU Kementrian Ekonomi Kreatif.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Ravena Ananda</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Shafira Putri</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -245,12 +245,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Shivani_Agustina_Staff Bendahara.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Shafira Dihyan_Staff KWU Ekonomi Kreatif.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Shivani Agustina</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Sharifa Dihyan</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -262,12 +262,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Yuro_Arumandji_staff sekretaris.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Christy ariyani br surbakti_staff sponsor.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Yuro Arumandji</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Christy Ariyani</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -279,12 +279,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Hilda_Isnaeni__Staff_Sekretaris.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Restoe Boemi Auliya Al Jailani_Staff KWU.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Hilda Isnaeni</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Restoe Boemi Auliya AL</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -296,19 +296,87 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Qurrata_A_yunin_Staff_Bendahara.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Resa Dwi Anggreini_Staff KWU Ekonomi Kreatif.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Qurrata A yunin</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Resa Dwi Anggreini</h5>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Pradigma Arya Dewanata_Staff Sponsorship.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">Pradigma Arya</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Dwi Nur Cahyani_Staff Sponsorship ekraf.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">Dwi Nur Cahyani</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Cindy Nerrizza Aprilia_Staff Sponsorship.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">Cindy Nerrizza</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/Anni Fitriya staff sponsorship_ekonomi kreatif.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">Anni Fitriya</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
 
 
@@ -338,8 +406,8 @@
         }
 
         /* body{
-                            background-color: rgb(47, 47, 47);
-                        } */
+                                background-color: rgb(47, 47, 47);
+                            } */
     </style>
 @endsection
 

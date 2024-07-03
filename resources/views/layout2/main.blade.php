@@ -10,7 +10,6 @@
 
     <!-- CSS -->
     @include('layout2.style')
-
     <!-- =======================================================
   * Template Name: Day
   * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
@@ -21,11 +20,12 @@
 </head>
 
 <body class="index-page">
-
+    
     @include('layout2.topbar')
-
+    
+    
     <main class="main">
-
+        
         @yield('content')
 
     </main>

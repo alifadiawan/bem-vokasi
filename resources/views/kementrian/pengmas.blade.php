@@ -5,7 +5,7 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">SEKBEN</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">PENGMAS</span></h3>
             </div>
             <div class="row justify-content-center">
 
@@ -14,15 +14,15 @@
                     {{-- logo --}}
                     <div class="card">
                         <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="col">
-                                    <img src="{{ asset('ppp/img/kementrian/PPKG.png') }}" class="img-fluid" alt=""
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS.png') }}" class="img-fluid" alt=""
                                         style="max-width: 12rem;">
                                 </div>
-                                <div class="col">
+                                <div class="col-6">
                                     <div class="content">
-                                        <h1 class="fw-bold m-0 p-0">SEKBEN</h1>
-                                        <h5 class="m-0 p-0">Sekertaris dan Bendahara Kabinet</h5>
+                                        <h3 class="fw-bold m-0 p-0">PENGMAS</h3>
+                                        <p class="m-0 p-0">Pengabdian Masyarakat</p>
                                     </div>
                                 </div>
                             </div>
@@ -36,14 +36,14 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <div class="col">
-                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Eva_Feliana Maelani_Menteri.png') }}"
+                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Ajeng Putri Pradika_Menteri.png') }}"
                                         class="img-fluid" alt="" style="max-height: 12rem;">
                                 </div>
                                 <div class="col">
                                     <div class="content">
-                                        <h2 class="fw-bold m-0 p-0">Eva Feliana</h2>
-                                        <h5 class="m-0 p-0">Menteri SEKBEN Kabinet</h5>
-                                        <pc class="fw-light">D4 Tek. Laboratorium Medik 2022</pc>
+                                        <h2 class="fw-bold m-0 p-0">Ajeng Putri</h2>
+                                        <h5 class="m-0 p-0">Menteri PENGMAS</h5>
+                                        <pc class="fw-light">D4 Tek. Radiologi Pencitraan 2022</pc>
                                     </div>
                                     <div class="icons">
                                         <a href=""><i class="bi bi-instagram"></i></a>
@@ -96,12 +96,12 @@
                     </div>
                 </div>
 
-                
+
                 <div class="col-12 col-md-8 col-lg-8">
                     <div class="card">
                         <div class="card-body px-5">
                             <div class="col-12">
-                                <h2 class="fw-bold">Kementrian <br> Sekertaris dan Bendahara Kabinet</h2>
+                                <h2 class="fw-bold">Kementrian <br> Pengabdian Masyarakat</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
                                     officiis officia, quae fugit beatae aliquid minima laborum exercitationem maiores
                                     aperiam,
@@ -120,7 +120,7 @@
                             </div>
 
                             <hr>
-                            <h3 class="text-center fw-bold">Dirjen SEKBEN</h3>
+                            <h3 class="text-center fw-bold">Dirjen PENGMAS</h3>
                             <hr>
 
                             <div class="row justify-content-around row-cols-3">
@@ -130,14 +130,14 @@
                                         <div class="card-body ">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Roro_Dinda_Salsabilla Permatasari_Dirjen_Kesekretariatan_.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/M. Aditya Roihanul Iza_Dirjen Pengembangan Generasi Muda.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Roro Dinda Salsabilla Permatasari</h5>
-                                                        <p class="m-0 p-0">DIRJEN Kesekretariantan</p>
-                                                        <pc class="fw-light">D4 Manajemen Perkantoran Digital 2022</pc>
+                                                        <h5 class="fw-bold m-0 p-0">Muhammad Aditya Rohainul Iza</h5>
+                                                        <p class="m-0 p-0">DIRJEN Pemberdayan Generasi Muda</p>
+                                                        <pc class="fw-light">D4 Keselamatan dan Kesehatan Kerja 2022</pc>
                                                     </div>
                                                 </div>
                                             </div>
@@ -149,21 +149,21 @@
                                         <div class="card-body">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/shintya_putri_ dirjen kebendaharaan_.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Hanif Akbar Fadillah_Dirjen Abdi Masyarakat.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Shintya Putri</h5>
-                                                        <p class="m-0 p-0">DIRJEN Kebendaharaan</p>
-                                                        <pc class="fw-light">D4 Perbankan dan Keuangan 2022</pc>
+                                                        <h5 class="fw-bold m-0 p-0">Hanif Akbar Fadillah</h5>
+                                                        <p class="m-0 p-0">DIRJEN Abdi Masyarakat</p>
+                                                        <pc class="fw-light">D4 Keselamatan dan Kesehatan Kerja 2022</pc>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
 
                             <hr>
@@ -177,12 +177,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Azizatul_Nazwa Salsabilla_Staff Sekre.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Ligar Melati_Bendahara PENGMAS.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Azizatul Nazwa Salsabilla</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Ligar Melati</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -194,12 +194,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Fiza_Aqila_Staff Bendahara_.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Muhammad Farhan Aminazaruddin_Staff Pengembangan Generasi Muda.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Fiza Aqila</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Muhammad Farhan Aminazaruddin</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -211,12 +211,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Nadya_Tikasari Putri_Staff Bendahara.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Masyidha F. Putri_ Sekretaris PENGMAS.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Nadya Tikasari Putri</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Masyidha Febriayanti</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -228,12 +228,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Ravena_Ananda_Staff Sekretaris.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Bertrand Ivano Syahputra_Staff Abdi Masyarakat.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Ravena Ananda</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Betrand Ivano Syahputra</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -245,12 +245,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Shivani_Agustina_Staff Bendahara.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Abraham Arby R._Staff Abdi Masyarakat.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Shivani Agustina</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Abraham Arby Revansyah</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -262,12 +262,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Yuro_Arumandji_staff sekretaris.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Sinta Rahmah A_Staff Pengembangan Generasi Muda.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Yuro Arumandji</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Sinta Rahmah Auliya</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -279,12 +279,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Hilda_Isnaeni__Staff_Sekretaris.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Hendy Nur Rohmat Faiz_Staff Abdi Masyarakat.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Hilda Isnaeni</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Hendy Nur Rohmat Faiz</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -296,19 +296,87 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Qurrata_A_yunin_Staff_Bendahara.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Devita Rachmasari_Staf Pengembangan Generasi Muda.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Qurrata A yunin</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Devita Rachmasari</h5>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Muhammad Ridha Hafidz_Staff Pengembangan Generasi Muda.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">Muhammad Ridha Hafidz</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Sabitah Naura E.P_Staff Abdi Masyarakat.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">Sabita Naura Eka Putri</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Iklimatul Fauriyah_StaffAbdi Masyarakat.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">Iklimatul Fauriyah</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/PENGMAS/Fadjri Anda Lusia_Staff Pengembangan Generasi Muda.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">Fadjri Anda Lusia Ibrahim</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
 
 
@@ -338,8 +406,8 @@
         }
 
         /* body{
-                            background-color: rgb(47, 47, 47);
-                        } */
+                                background-color: rgb(47, 47, 47);
+                            } */
     </style>
 @endsection
 

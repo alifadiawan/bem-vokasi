@@ -5,7 +5,7 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">SEKBEN</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">KEAGAMAAN</span></h3>
             </div>
             <div class="row justify-content-center">
 
@@ -14,15 +14,15 @@
                     {{-- logo --}}
                     <div class="card">
                         <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="col">
-                                    <img src="{{ asset('ppp/img/kementrian/PPKG.png') }}" class="img-fluid" alt=""
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN.png') }}" class="img-fluid" alt=""
                                         style="max-width: 12rem;">
                                 </div>
-                                <div class="col">
+                                <div class="col-6">
                                     <div class="content">
-                                        <h1 class="fw-bold m-0 p-0">SEKBEN</h1>
-                                        <h5 class="m-0 p-0">Sekertaris dan Bendahara Kabinet</h5>
+                                        <h3 class="fw-bold m-0 p-0">KEAGAMAAN</h3>
+                                        {{-- <p class="m-0 p-0">Advokasi dan Kesejahteraan Mahasiswa</p> --}}
                                     </div>
                                 </div>
                             </div>
@@ -36,14 +36,14 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <div class="col">
-                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Eva_Feliana Maelani_Menteri.png') }}"
+                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/DINNISA NURSYAHFITRI_MENTERI KEAGAMAAN.png') }}"
                                         class="img-fluid" alt="" style="max-height: 12rem;">
                                 </div>
                                 <div class="col">
                                     <div class="content">
-                                        <h2 class="fw-bold m-0 p-0">Eva Feliana</h2>
-                                        <h5 class="m-0 p-0">Menteri SEKBEN Kabinet</h5>
-                                        <pc class="fw-light">D4 Tek. Laboratorium Medik 2022</pc>
+                                        <h2 class="fw-bold m-0 p-0">DINNISA NURSYAHFITRI</h2>
+                                        <h5 class="m-0 p-0">Menteri KEAGAMAAN </h5>
+                                        <pc class="fw-light">D4 Tek. Radiologi Pencitraan 2022</pc>
                                     </div>
                                     <div class="icons">
                                         <a href=""><i class="bi bi-instagram"></i></a>
@@ -96,12 +96,12 @@
                     </div>
                 </div>
 
-                
+
                 <div class="col-12 col-md-8 col-lg-8">
                     <div class="card">
                         <div class="card-body px-5">
                             <div class="col-12">
-                                <h2 class="fw-bold">Kementrian <br> Sekertaris dan Bendahara Kabinet</h2>
+                                <h2 class="fw-bold">Kementrian <br> Keagamaan</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
                                     officiis officia, quae fugit beatae aliquid minima laborum exercitationem maiores
                                     aperiam,
@@ -120,7 +120,7 @@
                             </div>
 
                             <hr>
-                            <h3 class="text-center fw-bold">Dirjen SEKBEN</h3>
+                            <h3 class="text-center fw-bold">Dirjen KEAGAMAAN</h3>
                             <hr>
 
                             <div class="row justify-content-around row-cols-3">
@@ -130,14 +130,14 @@
                                         <div class="card-body ">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Roro_Dinda_Salsabilla Permatasari_Dirjen_Kesekretariatan_.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Agnesia Citraputri Antoneta_Dirjen Aspirasi Rohani.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Roro Dinda Salsabilla Permatasari</h5>
-                                                        <p class="m-0 p-0">DIRJEN Kesekretariantan</p>
-                                                        <pc class="fw-light">D4 Manajemen Perkantoran Digital 2022</pc>
+                                                        <h5 class="fw-bold m-0 p-0">Agnesia Citraputri Antoneta</h5>
+                                                        <p class="m-0 p-0">DIRJEN Aspirasi Rohani</p>
+                                                        <pc class="fw-light">D4 Destinasi Pariwisata 2021</pc>
                                                     </div>
                                                 </div>
                                             </div>
@@ -149,21 +149,40 @@
                                         <div class="card-body">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/shintya_putri_ dirjen kebendaharaan_.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Agustina Dewinta Puteri_Dirjen Pengembangan Rohani.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Shintya Putri</h5>
-                                                        <p class="m-0 p-0">DIRJEN Kebendaharaan</p>
-                                                        <pc class="fw-light">D4 Perbankan dan Keuangan 2022</pc>
+                                                        <h5 class="fw-bold m-0 p-0">Agustina Dewinta Puteri</h5>
+                                                        <p class="m-0 p-0">DIRJEN Pengembangan Rohani</p>
+                                                        <pc class="fw-light">D4 Tek. Radiologi Pencitraan 2022</pc>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
+                                <div class="col">
+                                    <div class="card mt-3 ">
+                                        <div class="card-body">
+                                            <div class="d-flex flex-column gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Renny Mariatul Latifah_Dirjen Spiritual.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">Renny Mariatul Latifah</h5>
+                                                        <p class="m-0 p-0">DIRJEN Spiritual</p>
+                                                        <pc class="fw-light">D3 Manajemen Pemasaran 2023</pc>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
 
                             <hr>
@@ -177,12 +196,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Azizatul_Nazwa Salsabilla_Staff Sekre.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Athifa_Ibtisama_Fawwazah_Staff_Pengembangan_Rohani-removebg-preview.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Azizatul Nazwa Salsabilla</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Athifa Ibtisama Fawwazah</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -194,12 +213,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Fiza_Aqila_Staff Bendahara_.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Muhammad Catra Hanif _Azmi_staff pengembangan rohani.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Fiza Aqila</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Muhammad Catra Hanif Azmi</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -211,12 +230,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Nadya_Tikasari Putri_Staff Bendahara.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Indah Tasya Kurina_Staff Aspirasi Rohani.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Nadya Tikasari Putri</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Indah Tasya Kurina</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -228,12 +247,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Ravena_Ananda_Staff Sekretaris.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Levina Kirana Armilda_ Staff Pengembangan Rohani.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Ravena Ananda</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Levina Kirana Armilda</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -245,12 +264,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Shivani_Agustina_Staff Bendahara.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Intan Eka Kusuma Wardani_Staff Spiritual.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Shivani Agustina</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Intan Eka Kusuma Wardani</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -262,12 +281,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Yuro_Arumandji_staff sekretaris.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/HIQNI_SABILATUZZAIDAH_STAFF_Pengembangan_rohani-removebg-preview.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Yuro Arumandji</h5>
+                                                        <h5 class="fw-bold m-0 p-0">HIQNI SABILATUZZAIDAH</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -279,12 +298,12 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Hilda_Isnaeni__Staff_Sekretaris.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/ELSA_WIDYANTARI_AZIZAH_Staff_Spritual_-removebg-preview.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Hilda Isnaeni</h5>
+                                                        <h5 class="fw-bold m-0 p-0">ELSA WIDYANTARI AZIZAH</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -296,19 +315,70 @@
                                         <div class="card-body ">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN/Qurrata_A_yunin_Staff_Bendahara.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/THEORA SERVANKA_STAFF ASPIRASI ROHANI.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Qurrata A yunin</h5>
+                                                        <h5 class="fw-bold m-0 p-0">HEORA SERVANKA</h5>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/AYU ALIFIA ANGGRAINI_STAFF SPIRITUAL_.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">AYU ALIFIA ANGGRAINI</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/NAJWA A_SAL AURORA_STAFF SPIRITUAL .png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">/NAJWA A SAL AURORA</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <div class="card-body ">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div class="col">
+                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Septi Anggia Asifa Putri_Staff Aspirasi Rohani.png') }}"
+                                                        class="img-fluid" alt="" style="max-height: 8rem;">
+                                                </div>
+                                                <div class="col">
+                                                    <div class="content">
+                                                        <h5 class="fw-bold m-0 p-0">Septi Anggia Asifa Putri</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
 
 
@@ -338,8 +408,8 @@
         }
 
         /* body{
-                            background-color: rgb(47, 47, 47);
-                        } */
+                                background-color: rgb(47, 47, 47);
+                            } */
     </style>
 @endsection
 
