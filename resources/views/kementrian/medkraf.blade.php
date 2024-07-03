@@ -116,7 +116,7 @@
                             </div>
 
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/MEDKRAF/medkraf.png') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
                             <hr>
