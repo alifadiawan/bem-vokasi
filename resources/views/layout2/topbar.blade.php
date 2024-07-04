@@ -44,7 +44,7 @@
                                 <li><a href="kementrian-keagamaan">Kementrian Keagamaan</a></li>
                             </ul>
                         </li>    --}}
-                        <li><a href="vokasi-news" class="{{ request()->is('vokasi-news') ? 'active' : '' }}">News</a></li>
+                        <li><a href="/blogs" class="{{ request()->is('vokasi-news') ? 'active' : '' }}">Vokasi News</a></li>
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list "></i>
                 </nav>

@@ -895,7 +895,7 @@ section,
   /* height: 100vh; */
   color: var(--default-color);
   /* background-color: var(--background-color); */
-  /* background-image: url('/ppp/img/background.jpg'); */
+  background-image: url('/ppp/img/bg2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

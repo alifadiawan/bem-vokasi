@@ -3,53 +3,139 @@
     <!-- Headline -->
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
-            <div class="row">
-                <div class=" rounded-5">
-                    <div class="card border-0 mb-1" id="headline">
-                        <div class="row p-0 m-0">
-                            <div class="col p-0">
-                                <div class="card card-news p-0">
-                                    <div class="card-body">
-                                        <img src="https://placehold.co/1000x500" class="rounded-3 w-100 h-100">
-                                        {{-- <img src="{{ asset('assets/result.png') }}" class="img-fluid rounded-5" width="1000"
-                                        height="500"> --}}
-                                    </div>
-                                </div>
+
+            <h1 class="fw-bold text-center my-5">BERITA <span style="color: #ff6800">TERKINI</span></h1>
+
+            <div class="row mb-5">
+                <div class="card card-news shadow m-0 p-0">
+                    <div class="card-body m-0 p-0">
+                        <div class="d-flex gap-3 align-items-center ">
+                            <img src="https://placehold.co/800x400" class="img-fluid" alt=""
+                                style="border-top-left-radius: 10px; border-bottom-left-radius: 10px">
+                            <div class="d-flex flex-column justify-content-around pe-3">
+                                <h1 class="fw-bold mb-0">Ayo Bergerak Bersama Lanjutkan Merdeka Belajar!</h1>
+                                <span class="text-secondary mb-3" style="font-size: 14px">12 Jan 2023 14:54</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam excepturi ea
+                                    aliquid ut. Fugit vero, reiciendis non voluptas dicta quo. Doloremque, aut. Aliquam
+                                    neque repudiandae fugiat nulla dolores autem.</p>
+                                <a href="">Baca Lebih Lanjut</a>
                             </div>
-                            <div class="col-lg-5 col-md-12 col-sm-12">
-                                <div class="d-flex flex-column h-100 mt-5">
-                                    <div class="col">
-                                        <h1>Ayo Bergerak Bersama Lanjutkan Merdeka Belajar!</h1>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card card-news">
-                                            <span class="fw-lighter">Dalam rangka memperingati Hari Pendidikan Nasional
-                                                (Hardiknas) setiap tanggal 2 Mei,
-                                                Universitas
-                                                Airlangga (UNAIR) ikut serta hadir menyemarakkan pada Jumat (3/5/2024) di
-                                                Indonesia
-                                                Arena,
-                                                Kompleks
-                                                Gelora Bung Karno, Senayan. Tahun ini, Kementerian Pendidikan, Kebudayaan,
-                                                Riset, dan
-                                                ....
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="col mt-5 mb-5">
-                                        <a href="/vokasi-news/detail" class="link-fancy link-fancy-light">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
+
+            <h1 class="fw-bold text-center mt-5">Ber<span style="color: #ff6800">ita</span></h1>
+
+            <div class="row row-cols-4 ">
+
+                <div class="col mt-5">
+                    <a href="/vokasi-news/detail" class="card-link">
+                        <div class="card card-news shadow m-0 p-0">
+                            <div class="card-body m-0 p-0">
+                                <img src="https://placehold.co/400x200" class="img-fluid"  style="border-top-left-radius: 8px; border-top-right-radius: 8px">
+                                <div class="d-flex flex-column p-2">
+                                    <h5>Field Trip FIB Kenalkan Peneleh sebagai Aset Budaya Surabaya</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mt-5">
+                    <a href="/vokasi-news/detail" class="card-link">
+                        <div class="card card-news shadow m-0 p-0">
+                            <div class="card-body m-0 p-0">
+                                <img src="https://placehold.co/400x200" class="img-fluid"  style="border-top-left-radius: 8px; border-top-right-radius: 8px">
+                                <div class="d-flex flex-column p-2">
+                                    <h5>Field Trip FIB Kenalkan Peneleh sebagai Aset Budaya Surabaya</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mt-5">
+                    <a href="/vokasi-news/detail" class="card-link">
+                        <div class="card card-news shadow m-0 p-0">
+                            <div class="card-body m-0 p-0">
+                                <img src="https://placehold.co/400x200" class="img-fluid"  style="border-top-left-radius: 8px; border-top-right-radius: 8px">
+                                <div class="d-flex flex-column p-2">
+                                    <h5>Field Trip FIB Kenalkan Peneleh sebagai Aset Budaya Surabaya</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mt-5">
+                    <a href="/vokasi-news/detail" class="card-link">
+                        <div class="card card-news shadow m-0 p-0">
+                            <div class="card-body m-0 p-0">
+                                <img src="https://placehold.co/400x200" class="img-fluid"  style="border-top-left-radius: 8px; border-top-right-radius: 8px">
+                                <div class="d-flex flex-column p-2">
+                                    <h5>Field Trip FIB Kenalkan Peneleh sebagai Aset Budaya Surabaya</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mt-5">
+                    <a href="/vokasi-news/detail" class="card-link">
+                        <div class="card card-news shadow m-0 p-0">
+                            <div class="card-body m-0 p-0">
+                                <img src="https://placehold.co/400x200" class="img-fluid"  style="border-top-left-radius: 8px; border-top-right-radius: 8px">
+                                <div class="d-flex flex-column p-2">
+                                    <h5>Field Trip FIB Kenalkan Peneleh sebagai Aset Budaya Surabaya</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mt-5">
+                    <a href="/vokasi-news/detail" class="card-link">
+                        <div class="card card-news shadow m-0 p-0">
+                            <div class="card-body m-0 p-0">
+                                <img src="https://placehold.co/400x200" class="img-fluid"  style="border-top-left-radius: 8px; border-top-right-radius: 8px">
+                                <div class="d-flex flex-column p-2">
+                                    <h5>Field Trip FIB Kenalkan Peneleh sebagai Aset Budaya Surabaya</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mt-5">
+                    <a href="/vokasi-news/detail" class="card-link">
+                        <div class="card card-news shadow m-0 p-0">
+                            <div class="card-body m-0 p-0">
+                                <img src="https://placehold.co/400x200" class="img-fluid"  style="border-top-left-radius: 8px; border-top-right-radius: 8px">
+                                <div class="d-flex flex-column p-2">
+                                    <h5>Field Trip FIB Kenalkan Peneleh sebagai Aset Budaya Surabaya</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mt-5">
+                    <a href="/vokasi-news/detail" class="card-link">
+                        <div class="card card-news shadow m-0 p-0">
+                            <div class="card-body m-0 p-0">
+                                <img src="https://placehold.co/400x200" class="img-fluid"  style="border-top-left-radius: 10px; border-top-right-radius: 10px">
+                                <div class="d-flex flex-column p-2">
+                                    <h5>Field Trip FIB Kenalkan Peneleh sebagai Aset Budaya Surabaya</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+
+
         </div>
     </div>
 
 
-    <div class="w-100 overflow-hidden position-relative pt-5">
+    {{-- <div class="w-100 overflow-hidden position-relative pt-5">
         <div class="container py-vh-4 position-relative mt-5">
             <div class="row">
 
@@ -128,14 +214,10 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
 
 @section('page-css')
     <style>
-        #headline:hover {
-            box-shadow: 0 0 11px rgba(33, 33, 33, .2);
-        }
-
         .card-news {
             border: none;
         }
