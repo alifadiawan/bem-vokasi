@@ -123,7 +123,7 @@
                             <h3 class="text-center fw-bold mb-4 mt-5">Dirjen KEAGAMAAN</h3>
 
 
-                            <div class="row justify-content-around row-cols-3">
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2">
 
                                 <div class="col">
                                     <div class="profile-card-2"><img

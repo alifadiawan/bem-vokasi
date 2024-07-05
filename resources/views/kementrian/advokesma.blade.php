@@ -53,47 +53,6 @@
                             </div>
                         </div>
                     </div>
-
-                    {{-- dirjen --}}
-                    <div class="d-flex gap-1">
-
-                        {{-- <div class="card mt-3">
-                            <div class="card-body">
-                                <div class="d-flex flex-column align-items-center">
-                                    <div class="col">
-                                        <img src="{{ asset('ppp/img/kementrian/ppkg/Tyas_Annisa_Menteri.png') }}"
-                                            class="img-fluid" alt="" style="max-height: 8rem;">
-                                    </div>
-                                    <div class="col">
-                                        <div class="content">
-                                            <h5 class="fw-bold m-0 p-0">Muhammad Amirul Habib</h5>
-                                            <p class="m-0 p-0">DIRJEN Kesetaraan</p>
-                                            <pc class="fw-light">D4 Fisioterapi 2022</pc>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card mt-3">
-                            <div class="card-body">
-                                <div class="d-flex flex-column align-items-center">
-                                    <div class="col">
-                                        <img src="{{ asset('ppp/img/kementrian/ppkg/Tyas_Annisa_Menteri.png') }}"
-                                            class="img-fluid" alt="" style="max-height: 8rem;">
-                                    </div>
-                                    <div class="col">
-                                        <div class="content">
-                                            <h5 class="fw-bold m-0 p-0">Za'imatul Husniyah Rahmawati</h5>
-                                            <p class="m-0 p-0">Menteri PPKG</p>
-                                            <p class="fw-light">D4 Fisioterapi 2022</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-
-                    </div>
                 </div>
 
 
@@ -170,7 +129,7 @@
                             <h3 class="text-center fw-bold mb-4 mt-5">Staff</h3>
                             
 
-                            <div class="row justify-content-around row-cols-2 my-3">
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
@@ -412,19 +371,6 @@
             background-color: rgba(var(--default-color-rgb), 0.05);
             background-color: #242424;
         }
-
-        .card {
-            border: none;
-        }
-
-        .card-body {
-            border-radius: 8px;
-            box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
-        }
-
-        /* body{
-                                background-color: rgb(47, 47, 47);
-                            } */
     </style>
 @endsection
 

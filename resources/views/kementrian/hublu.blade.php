@@ -101,7 +101,7 @@
                     <div class="card">
                         <div class="card-body px-5">
                             <div class="col-12">
-                                <h2 class="fw-bold">Kementrian <br> Hubungal Luar</h2>
+                                <h2 class="fw-bold">Hubungan Luar</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
                                     officiis officia, quae fugit beatae aliquid minima laborum exercitationem maiores
                                     aperiam,
@@ -116,14 +116,14 @@
                             </div>
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/kementrian/HUBLU/fotbar-hublu.png') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
                             
                             <h3 class="text-center fw-bold mb-4 mt-5">Dirjen HUBLU</h3>
                             
 
-                            <div class="row justify-content-around">
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2">
 
                                 <div class="col">
                                     <div class="card mt-3 w-100 h-100">

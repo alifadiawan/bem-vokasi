@@ -127,7 +127,7 @@
 
                                 <div class="col">
                                     <div class="card mt-3 w-100 h-100">
-                                        <div class="card-body pb-0 pt-3 ">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/PENGMAS/M. Aditya Roihanul Iza_Dirjen Pengembangan Generasi Muda.png') }}"

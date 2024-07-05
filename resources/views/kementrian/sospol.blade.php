@@ -9,9 +9,8 @@
             </div>
             <div class="row justify-content-center">
 
-                <div class="col-12 col-md col-lg-4">
-
-                    {{-- logo --}}
+                {{-- logo & Menteri --}}
+                <div class="col-12 col-md col-lg-4 mt-3">
                     <div class="card">
                         <div class="card-body">
                             <div class="row align-items-center">
@@ -28,8 +27,6 @@
                             </div>
                         </div>
                     </div>
-
-                    {{-- sususan kabinet --}}
 
                     {{-- menteri --}}
                     <div class="card mt-3">
@@ -97,37 +94,33 @@
                 </div>
 
 
-                <div class="col-12 col-md-8 col-lg-8">
+                <div class="col-12 col-md-8 col-lg-8 mt-3">
                     <div class="card">
                         <div class="card-body px-5">
                             <div class="col-12">
-                                <h2 class="fw-bold">Kementrian <br> Sosial Dan Politik</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
-                                    officiis officia, quae fugit beatae aliquid minima laborum exercitationem maiores
-                                    aperiam,
-                                    provident a libero aspernatur perspiciatis quod! Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officiis voluptates sint illum neque mollitia harum accusamus soluta,
-                                    dignissimos doloremque pariatur vel saepe dicta aliquam blanditiis! Sint facere animi
-                                    necessitatibus consectetur.
-                                    lorel Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti culpa sed
-                                    officiis autem, fuga harum eveniet consequatur, quia pariatur modi nisi repellat, at ea
-                                    quisquam similique. Cupiditate quam autem aspernatur.
+                                <h2 class="fw-bold">Sosial Dan Politik</h2>
+                                <p>Kementerian Sospol merupakan kementerian di bawah naungan bidang pergerakan BEM Vokasi
+                                    Universitas Airlangga 2024. Kementerian Sospol BEM Vokasi Unair merupakan roda penggerak
+                                    yang menentukan langkah BEM Vokasi Unair dalam menyikapi kebijakan dan isu internal maupun
+                                    eksternal serta membentuk keharmonisan antar mahasiswa dan terbentuknya pola pikir
+                                    kritis.
                                 </p>
                             </div>
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/kementrian/SOSPOL/fotbar.png') }}" class="img-fluid rounded-3"
+                                    alt="">
                             </div>
 
-                            
+
                             <h3 class="text-center fw-bold mb-4 mt-5">Dirjen SOSPOL</h3>
-                            
+
 
                             <div class="row justify-content-around row-cols-3">
 
                                 <div class="col">
-                                    <div class="card mt-3">
-                                        <div class="card-body ">
+                                    <div class="card mt-3 h-100">
+                                        <div class="card-body pb-0 pt-3 ">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Marzuqoh Nabilah Hadi Putri Dmk-Dirjen Kajian Sosial Politik Strategi.png') }}"
@@ -145,8 +138,8 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card mt-3 ">
-                                        <div class="card-body">
+                                    <div class="card mt-3 h-100">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/M.Ghaisan Algiftar_Dirjen Agitasi Propaganda .png') }}"
@@ -164,8 +157,8 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card mt-3 ">
-                                        <div class="card-body">
+                                    <div class="card mt-3 h-100">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex flex-column gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/SOSPOL/Selma Nayla El Rahmah_Dirjen Visualisasi Propaganda.png') }}"
@@ -185,11 +178,11 @@
 
                             </div>
 
-                            
-                            <h3 class="text-center fw-bold mb-4 mt-5">Staff</h3>
-                            
 
-                            <div class="row justify-content-around row-cols-2 my-3">
+                            <h3 class="text-center fw-bold mb-4 mt-5">Staff</h3>
+
+
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
@@ -425,8 +418,8 @@
         }
 
         /* body{
-                                background-color: rgb(47, 47, 47);
-                            } */
+                                    background-color: rgb(47, 47, 47);
+                                } */
     </style>
 @endsection
 

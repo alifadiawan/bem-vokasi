@@ -123,7 +123,7 @@
                             <h3 class="text-center fw-bold mb-4 mt-5">Dirjen EKRAF</h3>
                             
 
-                            <div class="row justify-content-around">
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2">
 
                                 <div class="col">
                                     <div class="card mt-3 w-100 h-100">
