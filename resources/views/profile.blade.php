@@ -34,10 +34,10 @@
 
 
     <!-- About Section -->
-    <section id="about" class="about">
+    {{-- <section id="about" class="about"> --}}
 
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-down">
+        <div class="container section-title mt-5" data-aos="fade-down">
             <span class="" data-aos="fade-down" data-aos-duration="800" data-aos-delay="200">KEMENTRIAN<br></span>
             <h2 class="" data-aos="fade-down" data-aos-duration="800" data-aos-delay="100">KEMENTRIAN<br></h2>
         </div><!-- End Section Title -->
