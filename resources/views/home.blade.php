@@ -63,22 +63,6 @@
                         <br>
                         Melangkah bersama, wujudkan karya nyata!
                     </p>
-                    {{-- <p class="fst-italic">
-                        Menjadi lebih dari sekedar pilar sentral bagi rumah mahasiswa Fakultas Vokasi UB, dalam
-                        mengembangkan sumber daya yang proaktif, membangun poros pengembangan bagi mahasiswa yang inklusif,
-                        memberikan pelayanan optimal melalui eskalasi advokasi, serta membangun ruang pasrtisipasi dan
-                        aktif.</p> --}}
-                    {{-- <ul>
-                    <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</span></li>
-                    <li><i class="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in
-                            voluptate velit.</span></li>
-                    <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                            storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul> --}}
-                    {{-- <a href="#" class="read-more"><span>Read More</span><i
-                        class="bi bi-arrow-right"></i></a> --}}
                 </div>
 
             </div>
@@ -92,17 +76,22 @@
     <section id="services" class="services section">
 
         <h2 class="text-center my-5">Company Profile BEM</h2>
-        <div class="row mb-5">
-            <div class="col-12 text-center">
-                <div class="video-container" data-aos="fade-up" data-aos-duration="2000">
-                    <iframe id="video" src="https://www.youtube.com/embed/SFxs6S3BEys?si=pxFhwMNja7XC2lL9"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+        <div class="row justify-content-center">
+            <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+                <iframe id="video" src="https://www.youtube.com/embed/SFxs6S3BEys?si=pxFhwMNja7XC2lL9"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
-    </section><!-- /Services Section -->
+        {{-- <div class="row mb-5">
+            <div class="col-12 text-center">
+                <div class="video-container" data-aos="fade-up" data-aos-duration="2000">
+                </div>
+            </div>
+        </div> --}}
+    </section>
+    <!-- /Services Section -->
 
 
 
@@ -112,6 +101,12 @@
 
 @section('page-css')
     <style>
+        iframe {
+            aspect-ratio: 16 / 9;
+            height: auto;
+            width: 100%;
+        }
+
         #logo-bem {
             max-width: 30rem;
             animation: floating-variant-1 3s infinite ease-in-out;
