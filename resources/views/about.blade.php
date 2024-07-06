@@ -1,7 +1,7 @@
 @extends('layout2.main')
 @section('content')
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero section px-3 px-lg-0">
 
         <img id="background" src="{{ asset('ppp/img/bg-unair.jpg') }}" alt="" data-aos="fade-in">
 
@@ -12,7 +12,6 @@
                     <h2 class="">Kabinet Gelora Karya</h2>
                     <p class="fw-bold" style="text-wrap: balance;">Badan Eksekutif Mahasiswa Fakultas Vokasi Universitas
                         Airlangga</p>
-                    {{-- <a href="#about" class="btn-get-started">Get Started</a> --}}
                     <div class="row my-5 align-items-center">
                         <div class="col-lg-2 col-6">
                             <h5 class="fw-bold">Anggota</h5>
@@ -32,20 +31,17 @@
                     <img id="logo-hover" src="{{ asset('ppp/img/logo_bem.png') }}" alt="" class="img-fluid">
                 </div>
             </div>
-
         </div>
-
-    </section><!-- /Hero Section -->
+    </section>
 
 
     <!-- perkenalan logo Section -->
-    <section id="about" class="about section" style="background-color: rgb(236, 236, 236)">
+    <section id="about" class="about section px-3 px-lg-0" style="background-color: rgb(236, 236, 236)">
 
-        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <span class="">Filosofi Logo<br></span>
             <h2 class="">Filosofi Logo<br></h2>
-        </div><!-- End Section Title -->
+        </div>
 
         <div class="container">
 
@@ -106,18 +102,16 @@
 
         </div>
 
-    </section><!-- /perkenalan logo Section -->
+    </section>
 
 
-    <section id="services" class="services section">
+    <section id="services" class="services section px-3 px-lg-0">
         <div class="container">
-            <div class="row">
-
+            <div class="row gap-5 gap-lg-0">
                 <div class="container section-title" data-aos="fade-up">
                     <span class="">Visi & Misi<br></span>
                     <h2 class="">Visi & Misi<br></h2>
                 </div>
-
                 <div class="col-lg-3">
                     <div class="card p-2">
                         <div class="card-body">

@@ -53,65 +53,19 @@
                             </div>
                         </div>
                     </div>
-
-                    {{-- dirjen --}}
-                    <div class="d-flex gap-1">
-
-                        {{-- <div class="card mt-3">
-                            <div class="card-body">
-                                <div class="d-flex flex-column align-items-center">
-                                    <div class="col">
-                                        <img src="{{ asset('ppp/img/kementrian/ppkg/Tyas_Annisa_Menteri.png') }}"
-                                            class="img-fluid" alt="" style="max-height: 8rem;">
-                                    </div>
-                                    <div class="col">
-                                        <div class="content">
-                                            <h5 class="fw-bold m-0 p-0">Muhammad Amirul Habib</h5>
-                                            <p class="m-0 p-0">DIRJEN Kesetaraan</p>
-                                            <pc class="fw-light">D4 Fisioterapi 2022</pc>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card mt-3">
-                            <div class="card-body">
-                                <div class="d-flex flex-column align-items-center">
-                                    <div class="col">
-                                        <img src="{{ asset('ppp/img/kementrian/ppkg/Tyas_Annisa_Menteri.png') }}"
-                                            class="img-fluid" alt="" style="max-height: 8rem;">
-                                    </div>
-                                    <div class="col">
-                                        <div class="content">
-                                            <h5 class="fw-bold m-0 p-0">Za'imatul Husniyah Rahmawati</h5>
-                                            <p class="m-0 p-0">Menteri PPKG</p>
-                                            <p class="fw-light">D4 Fisioterapi 2022</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-
-                    </div>
                 </div>
 
-                
-                <div class="col-12 col-md-8 col-lg-8">
+
+                <div class="col-12 col-md-8 col-lg-8 mt-3 mt-lg-0">
                     <div class="card">
-                        <div class="card-body px-5">
+                        <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Kementrian <br> Keilmuan dan Prestasi</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
-                                    officiis officia, quae fugit beatae aliquid minima laborum exercitationem maiores
-                                    aperiam,
-                                    provident a libero aspernatur perspiciatis quod! Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officiis voluptates sint illum neque mollitia harum accusamus soluta,
-                                    dignissimos doloremque pariatur vel saepe dicta aliquam blanditiis! Sint facere animi
-                                    necessitatibus consectetur.
-                                    lorel Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti culpa sed
-                                    officiis autem, fuga harum eveniet consequatur, quia pariatur modi nisi repellat, at ea
-                                    quisquam similique. Cupiditate quam autem aspernatur.
+                                <p>Kementerian Keilmuan dan Prestasi bertugas untuk mewadahi Mahasiswa Fakultas
+                                    Vokasi Universitas Airlangga dalam mengembangkan kemampuan di ranah soft skill maupun
+                                    hard skill. Selain itu, Kementerian ILPRES juga membawahi bidang kewirausahaan dan
+                                    keilmuan. Serta bertugas dalam pemberian bekal kepada Mahasiswa dalam mempersiapkan diri
+                                    untuk menghadapi kehidupan pasca kampus demi menjawab tantangan bonus demografi.
                                 </p>
                             </div>
                             <hr>
@@ -119,16 +73,16 @@
                                 <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
-                            
-                            <h3 class="text-center fw-bold mb-4 mt-5">Dirjen ILPRES</h3>
-                            
 
-                            <div class="row justify-content-around row-cols-3">
+                            <h3 class="fw-bold mb-4 mt-5">Dirjen ILPRES</h3>
+
+
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-3 gap-3 gap-lg-0">
 
                                 <div class="col">
                                     <div class="card mt-3 h-100">
                                         <div class="card-body ">
-                                            <div class="d-flex flex-column gap-2 align-items-center">
+                                            <div class="d-flex flex-lg-column gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ILPRES/Maulida_Maya_Dwi_Rahmawati_Dirjen_Inovasi-removebg-preview.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
@@ -147,7 +101,7 @@
                                 <div class="col">
                                     <div class="card mt-3 h-100 ">
                                         <div class="card-body">
-                                            <div class="d-flex flex-column gap-2 align-items-center">
+                                            <div class="d-flex flex-lg-column gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ILPRES/Novaura Laila Ramadhani_Dirjen Keilmuan_D3 Perpajakan.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
@@ -166,7 +120,7 @@
                                 <div class="col">
                                     <div class="card mt-3 h-100 ">
                                         <div class="card-body">
-                                            <div class="d-flex flex-column gap-2 align-items-center">
+                                            <div class="d-flex flex-lg-column gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ILPRES/shofia gonim_dirjen riset.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
@@ -182,14 +136,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
 
-                            
-                            <h3 class="text-center fw-bold mb-4 mt-5">Staff</h3>
-                            
 
-                            <div class="row justify-content-around row-cols-2 my-3">
+                            <h3 class="fw-bold mb-4 mt-5">Staff</h3>
+
+
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
@@ -395,7 +349,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
 
 
@@ -414,19 +368,6 @@
             background-color: rgba(var(--default-color-rgb), 0.05);
             background-color: #242424;
         }
-
-        .card {
-            border: none;
-        }
-
-        .card-body {
-            border-radius: 8px;
-            box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
-        }
-
-        /* body{
-                            background-color: rgb(47, 47, 47);
-                        } */
     </style>
 @endsection
 

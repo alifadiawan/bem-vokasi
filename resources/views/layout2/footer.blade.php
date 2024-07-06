@@ -3,12 +3,10 @@
     <div class="container footer-top">
         <div class="row gy-4 justify-content-center mb-4">
 
-            <div class="col-lg-7 col-md-6 col-12">
-                <div class="d-flex flex-lg-row flex-column align-items-center gap-3">
-                    <img src="{{ asset('ppp/img/logo_bem.png') }}" alt="" class="img-fluid"
-                        style="max-width: 10rem;">
-                    <h5 class="text-center" style="max-width: 18rem;">Website Resmi BEM Vokasi Universitas Airlangga 2024</h5>
-                </div>
+            <div class="col-lg-7 col-md-6 col-12 text-center text-lg-start">
+                <img src="{{ asset('ppp/img/logo_kabinet.png') }}" alt="" class="py-5"
+                    style="max-width: 20rem;">
+                
             </div>
 
 
@@ -35,22 +33,13 @@
 
     <hr>
 
-    <div class="container footer text-center">
-        <div class="row justify-content-center align-items-center">
-            <div class="col">
-                Designed & Developed by Kementrian <a href="/profile/kementrian-media-kreatif">Media Kreatif dan
-                    Digitalisasi</a>
-                <p>© <span>Copyright</span> <strong class="px-1 sitename">BEM VOKASI UNAIR 2024</strong> <span>All
-                        Rights
-                        Reserved</span>
-                </p>
-            </div>
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you've purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        </div>
+    <div class="footer-content text-center pt-5 px-5 px-lg-0">
+        Designed & Developed by Kementrian <a href="/profile/kementrian-media-kreatif">Media Kreatif dan
+            Digitalisasi</a>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">BEM VOKASI UNAIR 2024</strong> <span>All
+                Rights
+                Reserved</span>
+        </p>
     </div>
+
 </footer>
