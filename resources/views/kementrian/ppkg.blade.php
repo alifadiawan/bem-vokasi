@@ -8,7 +8,6 @@
                 <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">PPKG</span></h3>
             </div>
             <div class="row justify-content-center">
-
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
@@ -26,7 +25,6 @@
                             </div>
                         </div>
                     </div>
-
 
                     {{-- menteri --}}
                     <div class="card mt-3">
@@ -53,9 +51,9 @@
                 </div>
 
 
-                <div class="col-12 col-lg-8">
+                <div class="col-12 col-lg-8 mt-3 mt-lg-0">
                     <div class="card">
-                        <div class="card-body px-5">
+                        <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Pemberdayaan Perempuan dan Kesetaraan Gender</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
@@ -80,7 +78,7 @@
                             <h3 class="fw-bold mb-0 mt-5">Dirjen</h3>
 
                             {{-- Dirjen --}}
-                            <div class="row justify-content-around">
+                            <div class="row justify-content-around gap-3 gap-lg-0">
                                 <div class="col">
                                     <div class="card mt-3 h-100 w-100">
                                         <div class="card-body">
@@ -143,10 +141,10 @@
                             <h3 class="fw-bold mb-0 mt-5">Staff</h3>
 
                             {{-- staff --}}
-                            <div class="row rows-cols-1 row-cols-lg-2">
+                            <div class="row row-cols-1 row-cols-lg-2">
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Zanita Ardelia Athira_Staff Kesetaraan Gender.png') }}"
@@ -163,7 +161,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/sheryn_adelia_rahmah_staff_pemberdayaan-removebg-preview.png') }}"
@@ -180,7 +178,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Nayla_lisda_amalia__Staff_media_informasi_dan_edukasi-removebg-preview.png') }}"
@@ -197,7 +195,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Kiki Nur Cahyani_Staff media informasi & edukasi.png') }}"
@@ -214,7 +212,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Adinda Brilliant Putri Orlis_Staff Kesetaraan Gender.png') }}"
@@ -231,7 +229,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Anggita Dwi Yuniati_Staff pemberdayaan).png') }}"
@@ -248,10 +246,10 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ppkg/imroatussolikhah__staff_Pemberdayaan_-removebg-preview).png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/ppkg/imroatussolikhah__staff_Pemberdayaan_-removebg-preview.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
@@ -265,7 +263,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Aisyah R.R_Staff_.png') }}"
@@ -282,7 +280,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Anugrah_Pebria_Rahmawati_Staff_media_informasi_dan_edukasi_-removebg-preview.png') }}"
@@ -299,7 +297,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Ayu Laksmi Dewanti K_Staff Kesetaraan.png') }}"
@@ -316,7 +314,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <div class="card-body">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Ainur Risa_staff pemberdayaan ppkg.png') }}"

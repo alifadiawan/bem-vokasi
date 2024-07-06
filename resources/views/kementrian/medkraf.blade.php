@@ -56,7 +56,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-8">
+                <div class="col-12 col-lg-8 mt-3">
                     <div class="card">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12 mt-3">
@@ -78,7 +78,7 @@
                             <h3 class="fw-bold mb-4 mt-5">Dirjen MEDKRAF</h3>
 
 
-                            <div class="row row-cols-3">
+                            <div class="row row-cols-1 gap-3 gap-lg-0 row-cols-lg-3">
                                 <div class="col">
                                     <div class="card mt-3 h-100">
                                         <div class="card-body pb-0 pt-3">
@@ -168,7 +168,7 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/MEDKRAF/.png
+                                                    <img src="{{ asset('ppp/img/kementrian/MEDKRAF/wafi.png
                                                                                                                                                                                                                                                                                                                                                                                                                                 ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>

@@ -16,7 +16,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <div class="col">
-                                    <img src="{{ asset('ppp/img/kementrian/PPKG.png') }}" class="img-fluid" alt=""
+                                    <img src="{{ asset('ppp/img/kementrian/SEKBEN.png') }}" class="img-fluid" alt=""
                                         style="max-width: 12rem;">
                                 </div>
                                 <div class="col">
@@ -59,7 +59,7 @@
 
                 <div class="col-12 col-md-8 col-lg-8">
                     <div class="card mt-3">
-                        <div class="card-body px-lg-5 px-4">
+                        <div class="card-body px-lg-5 px-3">
                             <div class="col-12 mt-3">
                                 <h2 class="fw-bold">Sekertaris dan Bendahara Kabinet</h2>
                                 <p>SEKBEN adalah pengurus yang membawahi beberapa kementerian dan biro,
@@ -123,7 +123,7 @@
                             <h3 class="text-center fw-bold mb-4 mt-5">Staff</h3>
 
 
-                            <div class="row justify-content-around rows-cols-1 row-cols-lg-2 my-3">
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">

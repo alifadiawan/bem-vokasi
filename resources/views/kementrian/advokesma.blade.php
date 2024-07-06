@@ -16,8 +16,8 @@
                         <div class="card-body">
                             <div class="row align-items-center">
                                 <div class="col-6">
-                                    <img src="{{ asset('ppp/img/kementrian/ADVOKESMA.png') }}" class="img-fluid" alt=""
-                                        style="max-width: 12rem;">
+                                    <img src="{{ asset('ppp/img/kementrian/ADVOKESMA.png') }}" class="img-fluid"
+                                        alt="" style="max-width: 12rem;">
                                 </div>
                                 <div class="col-6">
                                     <div class="content">
@@ -58,19 +58,13 @@
 
                 <div class="col-12 col-md-8 col-lg-8">
                     <div class="card">
-                        <div class="card-body px-5">
+                        <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
-                                <h2 class="fw-bold">Kementrian <br> Sekertaris dan Bendahara Kabinet</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
-                                    officiis officia, quae fugit beatae aliquid minima laborum exercitationem maiores
-                                    aperiam,
-                                    provident a libero aspernatur perspiciatis quod! Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officiis voluptates sint illum neque mollitia harum accusamus soluta,
-                                    dignissimos doloremque pariatur vel saepe dicta aliquam blanditiis! Sint facere animi
-                                    necessitatibus consectetur.
-                                    lorel Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti culpa sed
-                                    officiis autem, fuga harum eveniet consequatur, quia pariatur modi nisi repellat, at ea
-                                    quisquam similique. Cupiditate quam autem aspernatur.
+                                <h2 class="fw-bold">Advokasi Kesejahteraan Mahasiswa</h2>
+                                <p>Kementerian Advokesma adalah Kementerian yang bergerak di bidang advokasi dan memberikan
+                                    pelayanan guna meningkatkan kesejahteraan mahasiswa, tidak hanya itu saja Kementerian
+                                    advokesma juga membantu dalam mewadahi setiap aspirasi maupun kebutuhan terkait
+                                    informasi kuliah dari setiap mahasiswa.
                                 </p>
                             </div>
                             <hr>
@@ -78,11 +72,11 @@
                                 <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
-                            
-                            <h3 class="text-center fw-bold mb-4 mt-5">Dirjen Advokesma</h3>
-                            
 
-                            <div class="row justify-content-around">
+                            <h3 class="fw-bold mb-4 mt-5">Dirjen Advokesma</h3>
+
+
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2 gap-2 gap-lg-0">
 
                                 <div class="col">
                                     <div class="card mt-3 h-100 w-100">
@@ -125,9 +119,9 @@
 
                             </div>
 
-                            
-                            <h3 class="text-center fw-bold mb-4 mt-5">Staff</h3>
-                            
+
+                            <h3 class="fw-bold mb-4 mt-5">Staff</h3>
+
 
                             <div class="row justify-content-around row-cols-1 row-cols-lg-2 my-3">
 

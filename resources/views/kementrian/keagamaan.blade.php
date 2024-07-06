@@ -5,7 +5,7 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">KEAGAMAAN</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">KEAGAMAAN</span></h3>
             </div>
             <div class="row justify-content-center">
 
@@ -22,7 +22,6 @@
                                 <div class="col-6">
                                     <div class="content">
                                         <h3 class="fw-bold m-0 p-0">KEAGAMAAN</h3>
-                                        {{-- <p class="m-0 p-0">Advokasi dan Kesejahteraan Mahasiswa</p> --}}
                                     </div>
                                 </div>
                             </div>
@@ -53,65 +52,18 @@
                             </div>
                         </div>
                     </div>
-
-                    {{-- dirjen --}}
-                    <div class="d-flex gap-1">
-
-                        {{-- <div class="card mt-3">
-                            <div class="card-body">
-                                <div class="d-flex flex-column align-items-center">
-                                    <div class="col">
-                                        <img src="{{ asset('ppp/img/kementrian/ppkg/Tyas_Annisa_Menteri.png') }}"
-                                            class="img-fluid" alt="" style="max-height: 8rem;">
-                                    </div>
-                                    <div class="col">
-                                        <div class="content">
-                                            <h5 class="fw-bold m-0 p-0">Muhammad Amirul Habib</h5>
-                                            <p class="m-0 p-0">DIRJEN Kesetaraan</p>
-                                            <pc class="fw-light">D4 Fisioterapi 2022</pc>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card mt-3">
-                            <div class="card-body">
-                                <div class="d-flex flex-column align-items-center">
-                                    <div class="col">
-                                        <img src="{{ asset('ppp/img/kementrian/ppkg/Tyas_Annisa_Menteri.png') }}"
-                                            class="img-fluid" alt="" style="max-height: 8rem;">
-                                    </div>
-                                    <div class="col">
-                                        <div class="content">
-                                            <h5 class="fw-bold m-0 p-0">Za'imatul Husniyah Rahmawati</h5>
-                                            <p class="m-0 p-0">Menteri PPKG</p>
-                                            <p class="fw-light">D4 Fisioterapi 2022</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-
-
-                    </div>
                 </div>
 
 
                 <div class="col-12 col-md-8 col-lg-8">
-                    <div class="card">
-                        <div class="card-body px-5">
+                    <div class="card mt-3 mt-lg-0">
+                        <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
-                                <h2 class="fw-bold">Kementrian <br> Keagamaan</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
-                                    officiis officia, quae fugit beatae aliquid minima laborum exercitationem maiores
-                                    aperiam,
-                                    provident a libero aspernatur perspiciatis quod! Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officiis voluptates sint illum neque mollitia harum accusamus soluta,
-                                    dignissimos doloremque pariatur vel saepe dicta aliquam blanditiis! Sint facere animi
-                                    necessitatibus consectetur.
-                                    lorel Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti culpa sed
-                                    officiis autem, fuga harum eveniet consequatur, quia pariatur modi nisi repellat, at ea
-                                    quisquam similique. Cupiditate quam autem aspernatur.
+                                <h2 class="fw-bold">Keagamaan</h2>
+                                <p>Kementerian Keagamaan adalah kementerian yang ada di Badan Eksekutif Mahasiswa
+                                    Universitas Airlangga. Kementerian agama ini bergerak dalam ranah keagamaan. Kementerian ini
+                                    memiliki tujuan untuk menumbuhkan nilai toleransi antar agama serta mengembangkan
+                                    nilai-nilai agama yang ada di dalam lingkungan kampus. 
                                 </p>
                             </div>
                             <hr>
@@ -120,112 +72,60 @@
                             </div>
 
 
-                            <h3 class="text-center fw-bold mb-4 mt-5">Dirjen KEAGAMAAN</h3>
+                            <h3 class="fw-bold mb-1 mt-5">Dirjen</h3>
 
 
-                            <div class="row justify-content-around row-cols-1 row-cols-lg-2">
-
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-3">
                                 <div class="col">
-                                    <div class="profile-card-2"><img
-                                            src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Agnesia Citraputri Antoneta_Dirjen Aspirasi Rohani.png') }}"
-                                            class="img img-fluid">
-                                        <div class="profile-name">JOHN DOE</div>
-                                        <div class="profile-username">@johndoesurname</div>
-                                        <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a
-                                                href="#"><i class="fa fa-twitter"></i></a><a href="#"><i
-                                                    class="fa fa-linkedin"></i></a></div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="profile-card-2"><img
-                                            src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Agustina Dewinta Puteri_Dirjen Pengembangan Rohani.png') }}"
-                                            class="img img-fluid">
-                                        <div class="profile-name">JOHN DOE</div>
-                                        <div class="profile-username">@johndoesurname</div>
-                                        <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a
-                                                href="#"><i class="fa fa-twitter"></i></a><a href="#"><i
-                                                    class="fa fa-linkedin"></i></a></div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="profile-card-2"><img
-                                            src="https://raw.githubusercontent.com/alifadiawan/bem-vokasi/master/public/ppp/img/kementrian/KEAGAMAAN/Agnesia%20Citraputri%20Antoneta_Dirjen%20Aspirasi%20Rohani.png"
-                                            class="img img-fluid">
-                                        <div class="profile-name">JOHN DOE</div>
-                                        <div class="profile-username">@johndoesurname</div>
-                                        <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a
-                                                href="#"><i class="fa fa-twitter"></i></a><a href="#"><i
-                                                    class="fa fa-linkedin"></i></a></div>
-                                    </div>
-                                
-                                    {{-- <div class="card mt-3 h-100 w-100">
+                                    <div class="card mt-3 h-100">
                                         <div class="card-body">
-                                            <div class="d-flex flex-column gap-2 align-items-center">
-                                                <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Agnesia Citraputri Antoneta_Dirjen Aspirasi Rohani.png') }}"
-                                                        class=" img-fluid" alt="" style="max-height: 8rem;">
-                                                </div>
-                                                <div class="col">
-                                                    <div class="content text-center">
-                                                        <h5 class="fw-bold m-0 p-0">Agnesia Citraputri Antoneta</h5>
-                                                        <p class="m-0 p-0">DIRJEN Aspirasi Rohani</p>
-                                                        <pc class="fw-light">D4 Destinasi Pariwisata 2021</pc>
-                                                    </div>
+                                            <div class="d-flex flex-lg-column gap-2 gap-lg-0 align-items-center">
+                                                <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Agnesia Citraputri Antoneta_Dirjen Aspirasi Rohani.png') }}"
+                                                    class=" img-fluid" alt="" style="max-height: 8rem;">
+                                                <div class="content">
+                                                    <h5 class="fw-bold m-0 p-0">Agnesia Citraputri Antoneta</h5>
+                                                    <p class="m-0 p-0">DIRJEN Aspirasi Rohani</p>
+                                                    <pc class="fw-light">D4 Destinasi Pariwisata 2021</pc>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card mt-3 h-100 w-100">
+                                    <div class="card mt-3 h-100">
                                         <div class="card-body">
-                                            <div class="d-flex flex-column gap-2 align-items-center">
-                                                <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Agustina Dewinta Puteri_Dirjen Pengembangan Rohani.png') }}"
-                                                        class="img-fluid" alt="" style="max-height: 8rem;">
-                                                </div>
-                                                <div class="col">
-                                                    <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Agustina Dewinta Puteri</h5>
-                                                        <br>
-                                                        <p class="m-0 p-0">DIRJEN Pengembangan Rohani</p>
-                                                        <pc class="fw-light">D4 Tek. Radiologi Pencitraan 2022</pc>
-                                                    </div>
+                                            <div class="d-flex flex-lg-column gap-2 gap-lg-0 align-items-center">
+                                                <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Agustina Dewinta Puteri_Dirjen Pengembangan Rohani.png') }}"
+                                                    class="img-fluid" alt="" style="max-height: 8rem;">
+                                                <div class="content">
+                                                    <h5 class="fw-bold m-0 p-0">Agustina Dewinta Puteri</h5>
+                                                    <p class="m-0 p-0">DIRJEN Pengembangan Rohani</p>
+                                                    <pc class="fw-light">D4 Tek. Radiologi Pencitraan 2022</pc>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card mt-3 h-100 w-100">
+                                    <div class="card mt-3 h-100">
                                         <div class="card-body">
-                                            <div class="d-flex flex-column gap-2 align-items-center">
-                                                <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Renny Mariatul Latifah_Dirjen Spiritual.png') }}"
-                                                        class="img-fluid" alt="" style="max-height: 8rem;">
-                                                </div>
-                                                <div class="col">
-                                                    <div class="content text-center">
-                                                        <h5 class="fw-bold m-0 p-0">Renny Mariatul Latifah</h5>
-                                                        <br>
-                                                        <br>
-                                                        <p class="m-0 p-0">DIRJEN Spiritual</p>
-                                                        <pc class="fw-light">D3 Manajemen Pemasaran 2023</pc>
-                                                    </div>
+                                            <div class="d-flex flex-lg-column gap-2 gap-lg-0 align-items-center">
+                                                <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/Renny Mariatul Latifah_Dirjen Spiritual.png') }}"
+                                                    class="img-fluid" alt="" style="max-height: 8rem;">
+                                                <div class="content">
+                                                    <h5 class="fw-bold m-0 p-0">Renny Mariatul Latifah</h5>
+                                                    <p class="m-0 p-0">DIRJEN Spiritual</p>
+                                                    <pc class="fw-light">D3 Manajemen Pemasaran 2023</pc>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div> --}}
                                 </div>
-
                             </div>
 
+                            <h3 class="fw-bold mb-1 mt-5">Staff</h3>
 
-                            <h3 class="text-center fw-bold mb-4 mt-5">Staff</h3>
-
-
-                            <div class="row justify-content-around row-cols-2 my-3">
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2 my-3">
 
                                 <div class="col">
                                     <div class="card mt-3">
@@ -414,40 +314,22 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
-
-
-
-
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
-    </div>
 
-@section('page-css')
-    <style>
-        .header .branding {
-            background-color: rgba(var(--default-color-rgb), 0.05);
-            background-color: #242424;
-        }
-
-        .card {
-            border: none;
-        }
-
-        .card-body {
-            border-radius: 8px;
-            box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
-        }
-
-        /* body{
-                                                        background-color: rgb(47, 47, 47);
-                                                    } */
-    </style>
-@endsection
+    @section('page-css')
+        <style>
+            .header .branding {
+                background-color: rgba(var(--default-color-rgb), 0.05);
+                background-color: #242424;
+            }
+        </style>
+    @endsection
 
 
 @endsection
