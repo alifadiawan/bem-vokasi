@@ -7,11 +7,11 @@
 
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-12 col-lg">
-                    <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">Hi voks, selamat datang di website
+                <div class="col-12 col-lg text-start text-lg">
+                    <p data-aos="fade-left" data-aos-duration="800" data-aos-delay="300">Hi voks, selamat datang di website
                         resmi</p>
-                    <h2 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">BEM Fakultas Vokasi</h2>
-                    <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800">Kabinet Gelora Karya</p>
+                    <h2 data-aos="fade-right" data-aos-duration="800" data-aos-delay="600">BEM Fakultas Vokasi</h2>
+                    <p data-aos="fade-left" data-aos-duration="800" data-aos-delay="800">Kabinet Gelora Karya</p>
                 </div>
                 <div class="col text-center">
                     <div class="image">
@@ -68,7 +68,7 @@
 
         <h2 class="text-center my-5">Company Profile BEM</h2>
         <div class="row justify-content-center">
-            <div class="col-lg-8 col-10" data-aos="fade-up" data-aos-duration="2000">
+            <div class="col-lg-8 col-10" data-aos="fade-up" data-aos-duration="1000">
                 <iframe id="video" class="rounded-3" src="https://www.youtube.com/embed/SFxs6S3BEys?si=pxFhwMNja7XC2lL9"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
