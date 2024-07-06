@@ -112,7 +112,7 @@
                     <span class="">Visi & Misi<br></span>
                     <h2 class="">Visi & Misi<br></h2>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" data-aos="fade-right">
                     <div class="card p-2">
                         <div class="card-body">
                             <h2 id="card-popup" class="text-center my-5">Visi</h2>
@@ -125,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9" data-aos="fade-left">
                     <div class="card">
                         <div class="card-body">
                             <h2 id="card-popup" class="text-center my-5">Misi</h2>
