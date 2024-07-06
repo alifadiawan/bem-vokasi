@@ -82,7 +82,7 @@
                                 <div class="col">
                                     <div class="card mt-3 h-100">
                                         <div class="card-body pb-0 pt-3">
-                                            <div class="d-flex flex-column align-items-center">
+                                            <div class="d-flex flex-lg-column align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/MEDKRAF/Ladyyy.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
@@ -101,7 +101,7 @@
                                 <div class="col">
                                     <div class="card mt-3 h-100">
                                         <div class="card-body pb-0 pt-3">
-                                            <div class="d-flex flex-column gap-2 align-items-center">
+                                            <div class="d-flex flex-lg-column gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/MEDKRAF/Shofie_Cilia.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
@@ -120,7 +120,7 @@
                                 <div class="col">
                                     <div class="card mt-3 h-100">
                                         <div class="card-body pb-0 pt-3 ">
-                                            <div class="d-flex flex-column align-items-center">
+                                            <div class="d-flex flex-lg-column align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/MEDKRAF/SYIFANI_AULIA-removebg-preview.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">

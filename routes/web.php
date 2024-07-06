@@ -37,4 +37,5 @@ Route::get('/profile/kementrian-pengmaspar', [KementrianController::class, 'peng
 Route::get('/profile/kementrian-ekonomi-kreatif', [KementrianController::class, 'ekraf']);
 Route::get('/profile/kementrian-prada', [KementrianController::class, 'prada']);
 Route::get('/profile/kementrian-keagamaan', [KementrianController::class, 'keagamaan']);
+Route::get('/profile/kementrian-pengembangan-sumber-daya-mannusia', [KementrianController::class, 'psdm']);
 

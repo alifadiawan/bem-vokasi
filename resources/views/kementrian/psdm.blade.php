@@ -5,7 +5,8 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">ILPRES</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">PSDM</span>
+                </h3>
             </div>
             <div class="row justify-content-center">
 
@@ -16,13 +17,13 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <div class="col">
-                                    <img src="{{ asset('ppp/img/kementrian/PPKG.png') }}" class="img-fluid" alt=""
+                                    <img src="{{ asset('ppp/img/kementrian/PSDM.png') }}" class="img-fluid" alt=""
                                         style="max-width: 12rem;">
                                 </div>
                                 <div class="col">
                                     <div class="content">
-                                        <h1 class="fw-bold m-0 p-0">ILPRES</h1>
-                                        <h5 class="m-0 p-0">Keilmuan dan Prestasi</h5>
+                                        <h1 class="fw-bold m-0 p-0">PSDM</h1>
+                                        <h5 class="m-0 p-0">Pengembangan Sumber Daya Manusia</h5>
                                     </div>
                                 </div>
                             </div>
@@ -36,18 +37,14 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <div class="col">
-                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Irma Dwi Praminiarti_Menteri.png') }}"
+                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Fawwaz Alodia_Menteri_.png') }}"
                                         class="img-fluid" alt="" style="max-height: 12rem;">
                                 </div>
                                 <div class="col">
                                     <div class="content">
-                                        <h2 class="fw-bold m-0 p-0">Irma Dwi</h2>
-                                        <h5 class="m-0 p-0">Menteri ILPRES </h5>
-                                        <pc class="fw-light">D4 Manajemen Perkantoran Digital 2022</pc>
-                                    </div>
-                                    <div class="icons">
-                                        <a href=""><i class="bi bi-instagram"></i></a>
-                                        <a href=""><i class="bi bi-linkedin"></i></a>
+                                        <h2 class="fw-bold m-0 p-0">Fawwaz Alodial</h2>
+                                        <h5 class="m-0 p-0">Menteri PSDM</h5>
+                                        <pc class="fw-light">D4 Tek. Laboratorim Medik 2022</pc>
                                     </div>
                                 </div>
                             </div>
@@ -55,43 +52,42 @@
                     </div>
                 </div>
 
-
-                <div class="col-12 col-md-8 col-lg-8 mt-3 mt-lg-0">
+                <div class="col-12 col-lg-8 mt-3">
                     <div class="card">
                         <div class="card-body px-lg-5 px-3">
-                            <div class="col-12">
-                                <h2 class="fw-bold">Kementrian <br> Keilmuan dan Prestasi</h2>
-                                <p>Kementerian Keilmuan dan Prestasi bertugas untuk mewadahi Mahasiswa Fakultas
+                            <div class="col-12 mt-3">
+                                <h2 class="fw-bold">Pengembangan Sumber Daya Manusia</h2>
+                                <p>Kementerian Pengembangan Sumber Daya Mahasiswa bertugas untuk mewadahi Mahasiswa Fakultas
                                     Vokasi Universitas Airlangga dalam mengembangkan kemampuan di ranah soft skill maupun
-                                    hard skill. Selain itu, Kementerian ILPRES juga membawahi bidang kewirausahaan dan
+                                    hard skill. Selain itu, Kementerian PSDM juga membawahi bidang kewirausahaan dan
                                     keilmuan. Serta bertugas dalam pemberian bekal kepada Mahasiswa dalam mempersiapkan diri
                                     untuk menghadapi kehidupan pasca kampus demi menjawab tantangan bonus demografi.
                                 </p>
                             </div>
-                            <hr>
+
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/kementrian/ILPRES/fotbar-ilpres.png') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/kementrian/PSDM/fotbar-psdm.png') }}" class="img-fluid rounded-3"
+                                    alt="">
                             </div>
 
 
-                            <h3 class="fw-bold mb-4 mt-5">Dirjen ILPRES</h3>
+                            <h3 class="fw-bold mb-4 mt-5">Dirjen PSDM</h3>
 
 
-                            <div class="row justify-content-around row-cols-1 row-cols-lg-3 gap-3 gap-lg-0">
-
+                            <div class="row row-cols-1 gap-3 gap-lg-0 row-cols-lg-3">
                                 <div class="col">
                                     <div class="card mt-3 h-100">
-                                        <div class="card-body ">
-                                            <div class="d-flex flex-lg-column gap-2 align-items-center">
+                                        <div class="card-body pb-0 pt-3">
+                                            <div class="d-flex flex-lg-column align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Maulida_Maya_Dwi_Rahmawati_Dirjen_Inovasi-removebg-preview.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Daninda_Aisya_Putri_Dirjen_PAK-removebg-preview.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Maulidya Maya Dwi Rahmawati</h5>
-                                                        <p class="m-0 p-0">DIRJEN Inovasi</p>
-                                                        <pc class="fw-light">D4 Tek. Radiologi Pencitraan 2022</pc>
+                                                        <h5 class="fw-bold m-0 p-0">Ladya Farras Zhafira</h5>
+                                                        <p class="m-0 p-0">DIRJEN Pendayagunaan Aparatur Kabinet</p>
+                                                        <pc class="fw-light">D4 Keselamatan & Kesehatan Kerja 2022</pc>
                                                     </div>
                                                 </div>
                                             </div>
@@ -99,18 +95,18 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card mt-3 h-100 ">
-                                        <div class="card-body">
+                                    <div class="card mt-3 h-100">
+                                        <div class="card-body pb-0 pt-3">
                                             <div class="d-flex flex-lg-column gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Novaura Laila Ramadhani_Dirjen Keilmuan_D3 Perpajakan.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Muckamad Dafit Firdos_Dirjen Kaderisasi.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Novaura Laila Ramadhani</h5>
-                                                        <p class="m-0 p-0">DIRJEN Keilmuan dan Prestasi</p>
-                                                        <pc class="fw-light">D3 Perpajakan 2022</pc>
+                                                        <h5 class="fw-bold m-0 p-0">Muckamad Dafit Firdos</h5>
+                                                        <p class="m-0 p-0">DIRJEN Kaerisasi</p>
+                                                        <pc class="fw-light">D4 Perbankan & Keuangan 2022</pc>
                                                     </div>
                                                 </div>
                                             </div>
@@ -118,24 +114,25 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card mt-3 h-100 ">
-                                        <div class="card-body">
-                                            <div class="d-flex flex-lg-column gap-2 align-items-center">
+                                    <div class="card mt-3 h-100">
+                                        <div class="card-body pb-0 pt-3 ">
+                                            <div class="d-flex flex-lg-column align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/shofia gonim_dirjen riset.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Rahma Aulia Salsabila_Dirjen SINEMA.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Shofia Gonim</h5>
-                                                        <p class="m-0 p-0">DIRJEN Riset</p>
-                                                        <pc class="fw-light">D4 Tek. Radiologi Pencitraan 2022</pc>
+                                                        <h5 class="fw-bold m-0 p-0">Rahma Aulia Salsabila</h5>
+                                                        <p class="m-0 p-0">DIRJEN Sinema</p>
+                                                        <pc class="fw-light">D4 Manajemen Perhotelan 2022</pc>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
 
                             </div>
 
@@ -143,19 +140,19 @@
                             <h3 class="fw-bold mb-4 mt-5">Staff</h3>
 
 
-                            <div class="row justify-content-around row-cols-1 row-cols-lg-2 my-3">
-
+                            <div class="row row-cols-1 row-cols-lg-2 justify-content-around">
                                 <div class="col">
                                     <div class="card mt-3">
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Via Layli_Staff Inovasi.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Abigail Cheryl Antoinette Berhitoe_Staff Kaderisasi.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Via Layli</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Abigail Cheryl Antoinette</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -167,12 +164,13 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Abdillah Muharrarul_Staff Inovasi.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Amellyzha Islamic Lovenus Rahardjo_Staff Kaderisasi.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Abdillah Muharrarul</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Amellyzha Islamic Lovenus Rahardjo</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -184,12 +182,13 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Evania Salma Rahmatika_Staff inovasi.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Danisa Alzura_Staff Sinema.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Evania Salma Rahmatika</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Danisa Alzura</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -201,12 +200,13 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Arshelina_Renata_Adiswara_staff_keilmuan-removebg-preview.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Diana Aulia Firdah _ Staff PAK.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Arshelina Tiara</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Diana Aulia Firdah</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -218,12 +218,13 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Adellia_Sisca_Shafira_Staff_Keilmuan-removebg-preview.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Pingky Septiana Risma Putri_Staff SINEMA.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Adelia Sisca Shafira</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Pingky Septiana Risma Putri</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -235,12 +236,13 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Eviolina Tiara Anggraini_Staff Keilmuan_.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Wafiq Salsabila_Staff PAK.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Evolina Tiara</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Wafiq Salsabila</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -252,12 +254,13 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Nisrina_Marsa_Salzabil_Staff_Riset-removebg-preview.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Muhammad Irsyad_Staff Kaderisasi.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Nisrina Marsa Salzabil</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Muhammad Irsyad</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -269,12 +272,13 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/NAUFAL EMERY_STAFF Inovasi.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/sabrina_dwi_damayanti-removebg-preview.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Naufal Emery</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Sabrina Dwi Damayanti</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -286,12 +290,13 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Chelsea Putri Arifiana_Staff Riset.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Haidar Mahija Pratama_STAFF PAK.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Chelsea Putri Arfiana</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Haidar Mahija Pratama</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -303,12 +308,13 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Dinar Putri Ramadhani_Staff Riset.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Muhammad_Akmal_Aisy_Staff_Sinergitas_Mahasiswa-removebg-preview.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Dinar Putri Ramadhani</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Muhammad Akmal Aisy</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -320,29 +326,13 @@
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Azarine Aurelliahandy Azzahra_Staff Riset.png') }}"
+                                                    <img src="{{ asset('ppp/img/kementrian/PSDM/Faradisa_Agustina_staff_sinema-removebg-preview.png
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
                                                 </div>
                                                 <div class="col">
                                                     <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Azarine Aurelliahandya</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card mt-3">
-                                        <div class="card-body pb-0 pt-3">
-                                            <div class="d-flex gap-2 align-items-center">
-                                                <div class="col">
-                                                    <img src="{{ asset('ppp/img/kementrian/ILPRES/Mas Ayu Alyaa_Staff Keilmuan.png') }}"
-                                                        class="img-fluid" alt="" style="max-height: 8rem;">
-                                                </div>
-                                                <div class="col">
-                                                    <div class="content">
-                                                        <h5 class="fw-bold m-0 p-0">Mas Ayu Alya</h5>
+                                                        <h5 class="fw-bold m-0 p-0">Faradisa Agustina</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -351,10 +341,6 @@
                                 </div>
 
                             </div>
-
-
-
-
                         </div>
                     </div>
                 </div>

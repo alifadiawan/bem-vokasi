@@ -39,4 +39,7 @@ class KementrianController extends Controller
     public function keagamaan (){
         return view ('kementrian.keagamaan');
     }
+    public function psdm (){
+        return view ('kementrian.psdm');
+    }
 }
