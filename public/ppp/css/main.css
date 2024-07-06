@@ -373,7 +373,9 @@ h6 {
     padding-top: 50px;
     margin: 0;
     /* border-radius: 6px; */
-    background-color: var(--nav-dropdown-background-color);
+    color: white;
+    background-color: #242424;
+    /* background-color: var(--nav-dropdown-background-color); */
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -382,7 +384,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-dropdown-color);
+    color: white;
     padding: 10px 20px;
     font-family: var(--nav-font);
     font-size: 17px;
@@ -971,7 +973,7 @@ section,
   --heading-color: #ffffff;
   --heading-color-rgb: 169, 167, 167;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100dvh;
   position: relative;
   padding: 160px 0 100px 0;
   display: flex;
