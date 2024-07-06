@@ -78,11 +78,11 @@
                             <h3 class="fw-bold mb-0 mt-5">Dirjen</h3>
 
                             {{-- Dirjen --}}
-                            <div class="row justify-content-around gap-3 gap-lg-0">
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-3 gap-3 gap-lg-0">
                                 <div class="col">
                                     <div class="card mt-3 h-100 w-100">
                                         <div class="card-body">
-                                            <div class="d-flex flex-column align-items-center">
+                                            <div class="d-flex flex-lg-column align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Muhammad_Amirul.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
@@ -101,7 +101,7 @@
                                 <div class="col">
                                     <div class="card mt-3 h-100 w-100">
                                         <div class="card-body pb-0 pt-3">
-                                            <div class="d-flex flex-column gap-2 align-items-center">
+                                            <div class="d-flex flex-lg-column gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/Zaimatul_Husniyah_R__Dirjen_Media_Informasi___edukasi-removebg-preview.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
@@ -120,7 +120,7 @@
                                 <div class="col">
                                     <div class="card mt-3 h-100 w-100">
                                         <div class="card-body pb-0 pt-3">
-                                            <div class="d-flex flex-column gap-2 align-items-center">
+                                            <div class="d-flex flex-lg-column gap-2 align-items-center">
                                                 <div class="col">
                                                     <img src="{{ asset('ppp/img/kementrian/ppkg/M._Fajar_dirjen_pemberdayaan_-removebg-preview.png') }}"
                                                         class="img-fluid" alt="" style="max-height: 8rem;">
@@ -141,7 +141,7 @@
                             <h3 class="fw-bold mb-0 mt-5">Staff</h3>
 
                             {{-- staff --}}
-                            <div class="row row-cols-1 row-cols-lg-2">
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2">
                                 <div class="col">
                                     <div class="card mt-3">
                                         <div class="card-body pb-0 pt-3">

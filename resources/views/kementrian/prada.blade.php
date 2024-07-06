@@ -71,7 +71,7 @@
                             </div>
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/kementrian/PRADA/fotbar-prada.png') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
 

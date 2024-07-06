@@ -71,6 +71,12 @@
                     </a>
                 </div>
                 <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
+                    <a href="/profile/kementrian-pengembangan-sumber-daya-mannusia">
+                        <img src="{{ asset('ppp/img/kementrian/PSDM.png') }}" alt="" data-aos="fade-left"
+                            data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">
+                    </a>
+                </div>
+                <div class="pb-5 col-12 col-lg-4" data-aos="zoom-in-up" id="card-id">
                     <a href="/profile/kementrian-ilpres">
                         <img src="{{ asset('ppp/img/kementrian/ILPRES.png') }}" alt="" data-aos="fade-left"
                             data-aos-duration="1500" class="img-fluid" style="max-width: 350px;">

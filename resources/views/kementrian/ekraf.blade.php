@@ -67,14 +67,14 @@
                             </div>
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/kementrian/EKONOMI_KREATIF/fotbar-ekraf.png') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
 
                             <h3 class="fw-bold mb-1 mt-5">Dirjen EKRAF</h3>
 
 
-                            <div class="row justify-content-around row-cols-1 row-cols-lg-2">
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2 gap-3 gap-lg-0">
 
                                 <div class="col">
                                     <div class="card mt-3 w-100 h-100">

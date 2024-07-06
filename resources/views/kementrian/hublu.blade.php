@@ -57,7 +57,7 @@
 
 
                 <div class="col-12 col-md-8 col-lg-8">
-                    <div class="card">
+                    <div class="card mt-3 mt-lg-0">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Hubungan Luar</h2>
@@ -76,7 +76,7 @@
                             <h3 class="fw-bold mb-4 mt-5">Dirjen HUBLU</h3>
 
 
-                            <div class="row justify-content-around row-cols-1 row-cols-lg-2">
+                            <div class="row justify-content-around row-cols-1 row-cols-lg-2 gap-3 gap-lg-0">
 
                                 <div class="col">
                                     <div class="card mt-3 w-100 h-100">
