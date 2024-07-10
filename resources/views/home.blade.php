@@ -39,7 +39,7 @@
         <div class="container">
             <div class="row gy-4 align-items-center">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800">
-                    <img src="https://placehold.co/600x400" class="img-fluid rounded-3" alt="">
+                    <img src="{{ asset('ppp/img/fotbar-kabinet.jpg') }}" class="img-fluid rounded-3" alt="">
                 </div>
                 <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200"
                     data-aos-duration="800">
