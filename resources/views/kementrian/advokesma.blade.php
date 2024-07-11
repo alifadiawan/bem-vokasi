@@ -45,10 +45,10 @@
                                         <h5 class="m-0 p-0">Menteri Advokesma </h5>
                                         <pc class="fw-light">D3 Manajemen Pemasaran 2022</pc>
                                     </div>
-                                    <div class="icons">
+                                    {{-- <div class="icons">
                                         <a href=""><i class="bi bi-instagram"></i></a>
                                         <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
