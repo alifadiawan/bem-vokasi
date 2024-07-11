@@ -56,16 +56,11 @@
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Pemberdayaan Perempuan dan Kesetaraan Gender</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
-                                    officiis officia, quae fugit beatae aliquid minima laborum exercitationem maiores
-                                    aperiam,
-                                    provident a libero aspernatur perspiciatis quod! Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officiis voluptates sint illum neque mollitia harum accusamus soluta,
-                                    dignissimos doloremque pariatur vel saepe dicta aliquam blanditiis! Sint facere animi
-                                    necessitatibus consectetur.
-                                    lorel Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti culpa sed
-                                    officiis autem, fuga harum eveniet consequatur, quia pariatur modi nisi repellat, at ea
-                                    quisquam similique. Cupiditate quam autem aspernatur.
+                                <p>Kementerian Pemberdayaan Perempuan dan Kesetraan Gender bertanggung
+                                    jawab atas perlindungan, peningkatan kesadaran dan kewaspadaan terhadap
+                                    keskerasan seksual. dan juga mengasah kemampuan berpikir kritis dalam
+                                    pengawalan kesetaraan gender Kemudian mengemas literatur atau kajian dalam
+                                    bentuk campaign melalui berbagai media yang strategis.
                                 </p>
                             </div>
 

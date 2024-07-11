@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-8 col-lg-8">
-                    <div class="card mt-3 mt-lg-0">
+                    <div class="card mt-3 mt-lg-0 mb-5">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Pengabdian Masyarakat</h2>
@@ -68,11 +68,11 @@
                             </div>
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/kementrian/PENGMAS/fotbar-pengmas.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
 
-                            <h3 class="fw-bold mb-1 mt-5">Dirjen PENGMAS</h3>
+                            <h3 class="fw-bold mb-1 mt-5">Dirjen</h3>
 
 
                             <div class="row justify-content-around row-cols-lg-2 row-cols-1 gap-2 gap-lg-0">

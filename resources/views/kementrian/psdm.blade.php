@@ -52,21 +52,23 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-8 mt-3">
+                <div class="col-12 col-lg-8 mt-3 mt-lg-0">
                     <div class="card">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12 mt-3">
                                 <h2 class="fw-bold">Pengembangan Sumber Daya Manusia</h2>
-                                <p>Kementerian Pengembangan Sumber Daya Mahasiswa bertugas untuk mewadahi Mahasiswa Fakultas
-                                    Vokasi Universitas Airlangga dalam mengembangkan kemampuan di ranah soft skill maupun
-                                    hard skill. Selain itu, Kementerian PSDM juga membawahi bidang kewirausahaan dan
-                                    keilmuan. Serta bertugas dalam pemberian bekal kepada Mahasiswa dalam mempersiapkan diri
-                                    untuk menghadapi kehidupan pasca kampus demi menjawab tantangan bonus demografi.
+                                <p>Kementerian Pengembangan Sumber Daya mahasiswa bertanggung jawab atas menciptakan keharmonisan
+                                    internal BEM FV dan sinergitas ORMAWA Vokasi. membentuk ruang komunikasi antar BEM, menciptakan sistem
+                                    kaderisasi yang progresif, professional, transparan, dan terbuka. Mempersiapkan, dan merawat anggota BEM
+                                    berlandaskan budaya maupun prinsip organisasi, membiasakan laku budaya organisasi yang positif, melakukan
+                                    pendataan, penilaian, controlling melalui konseling terhadap Anggota BEM dan pemberian apresiasi kepada
+                                    anggota BEM yang berpartisipasi aktif di dalam kepengurusan. Kemudian menjalin hubungan baik dengan
+                                    ORMAWA melalui kegiatan kunjungan, studi banding, kaderisasi, dan kegiatan lain yang bersifat kolaboratif
                                 </p>
                             </div>
 
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/kementrian/PSDM/fotbar-psdm.png') }}" class="img-fluid rounded-3"
+                                <img src="{{ asset('ppp/img/kementrian/PSDM/fotbar-psdm.jpg') }}" class="img-fluid rounded-3"
                                     alt="">
                             </div>
 

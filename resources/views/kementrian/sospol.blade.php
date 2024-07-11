@@ -58,11 +58,12 @@
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Sosial Dan Politik</h2>
-                                <p>Kementerian Sosial & Politik merupakan kementerian di bawah naungan bidang pergerakan BEM Vokasi
-                                    Universitas Airlangga 2024. Kementerian Sospol BEM Vokasi Unair merupakan roda penggerak
-                                    yang menentukan langkah BEM Vokasi Unair dalam menyikapi kebijakan dan isu internal maupun
-                                    eksternal serta membentuk keharmonisan antar mahasiswa dan terbentuknya pola pikir
-                                    kritis.
+                                <p>Kementerian Pemuda, Olahraga, & Budaya bertanggung jawab atas menciptakan euforia dan
+                                    harmoni melalui kegiatan yang unik, kreatif, dan adaptif terhadap mahasiswa Fakultas Vokasi,
+                                    menciptakan iklim prestatif melalui kegiatan yang interaktif, supportif, dan kompetitif yang
+                                    mewadahi minat dan bakat dalam bidang olahraga, kepemudaan, seni dan budaya secara aktif
+                                    dan berkesinambungan di Fakultas Vokasi. Kemudian mengaktifkan Unit Kegiatan Fakultas guna
+                                    meningkatan skill secara menjurus dalam rangka mencetak SDM yang unggul dalam berkarya.
                                 </p>
                             </div>
                             <hr>

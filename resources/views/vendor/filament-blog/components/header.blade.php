@@ -1,6 +1,6 @@
 @props(['title' => 'Firefly Blog', 'logo' => null])
 <header @click.outside="showSearchModal = false" x-data="{ showSearchModal: false }" class="sticky top-0 z-[94035] mb-4">
-    <div class="py-4 bg-white border-b">
+    <div class="py-4 bg-white border-b ">
         <div class="container mx-auto">
             <div class="flex justify-between gap-x-4">
                 <div class="flex items-center gap-x-10">
@@ -77,19 +77,26 @@
                                     <div class="relative z-0 rounded-2xl border bg-white py-4 shadow-xl">
                                         <div
                                             class="max-h-[65vh] list-none overflow-y-auto transition-all duration-300 translate-y-0 opacity-100">
-                                          
-                                                <form action="{{ route('filament.admin.auth.logout') }}" method="post">
-                                                    @csrf
-                                                    <input type="submit" class="py-2 block text-sm font-medium transition-all duration-300 cursor-pointer hover:text-primary-600 px-6 capitalize" value="Logout">
-                                                </form>
+                                            @if (Auth::user()->roles == 'admin')
+                                                <a href="{{ url('admin') }}"
+                                                    class="py-2 block text-sm font-medium transition-all duration-300 cursor-pointer hover:text-primary-600 px-6 capitalize">Panel
+                                                    Admin</a>
+                                            @endif
+                                            <form action="{{ route('filament.admin.auth.logout') }}" method="post">
+                                                @csrf
+                                                <input type="submit"
+                                                    class="py-2 block text-sm font-medium transition-all duration-300 cursor-pointer hover:text-primary-600 px-6 capitalize"
+                                                    value="Logout">
+                                            </form>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     @else
                         <a href="{{ url('/admin') }}" class="font-semibold text-md hover:text-primary-600">
-                            <span>Register / login</span>
+                            <span>Login</span>
                         </a>
                     @endif
                 </div>

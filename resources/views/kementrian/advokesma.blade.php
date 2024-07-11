@@ -9,7 +9,7 @@
             </div>
             <div class="row justify-content-center">
 
-                <div class="col-12 col-md col-lg-4">
+                <div class="col-12 col-md-10 col-lg-4">
 
                     {{-- logo --}}
                     <div class="card">
@@ -56,8 +56,8 @@
                 </div>
 
 
-                <div class="col-12 col-md-8 col-lg-8">
-                    <div class="card">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="card mt-3 mt-lg-0 mb-5">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Advokasi Kesejahteraan Mahasiswa</h2>
@@ -69,17 +69,17 @@
                             </div>
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/kementrian/advokesma/fotbar-advokesma.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
 
-                            <h3 class="fw-bold mb-4 mt-5">Dirjen Advokesma</h3>
+                            <h3 class="fw-bold mb-4 mt-5">Dirjen</h3>
 
 
                             <div class="row justify-content-around row-cols-1 row-cols-lg-2 gap-2 gap-lg-0">
 
                                 <div class="col">
-                                    <div class="card mt-3 h-100 w-100">
+                                    <div class="card mt-3 h-100 w-100" >
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
@@ -98,7 +98,7 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card mt-3 h-100 w-100">
+                                    <div class="card mt-3 h-100 w-100" >
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">

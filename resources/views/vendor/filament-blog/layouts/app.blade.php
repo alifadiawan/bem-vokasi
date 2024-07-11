@@ -172,7 +172,7 @@
 </head>
 
 <body class="antialiased">
-    <div class="min-h-screen">
+    <div class="min-h-screen ">
         <!-- Page Header -->
         <x-blog-header title="{{ $setting?->title }}" logo="{{ $setting?->logoImage }}" />
         <!-- Page Content -->

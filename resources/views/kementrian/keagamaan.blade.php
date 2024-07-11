@@ -60,15 +60,15 @@
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Keagamaan</h2>
-                                <p>Kementerian Keagamaan adalah kementerian yang ada di Badan Eksekutif Mahasiswa
-                                    Universitas Airlangga. Kementerian agama ini bergerak dalam ranah keagamaan. Kementerian ini
-                                    memiliki tujuan untuk menumbuhkan nilai toleransi antar agama serta mengembangkan
-                                    nilai-nilai agama yang ada di dalam lingkungan kampus. 
+                                <p>Kementerian Keagamaan bertanggung jawab atas menyediakan fasilitas kegiatan
+                                    keagamaan bagi mahasiswa Fakultas Vokasi, meningkatkan kesadaran dalam beramal
+                                    kebaikan bagi mahasiswa Fakultas Vokasi, dan menjaga kerukunan antar umat
+                                    beragama mahasiswa Fakultas Vokasi.
                                 </p>
                             </div>
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/fotbar-keagamaan.png') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/kementrian/KEAGAMAAN/fotbar-keagamaan.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
 

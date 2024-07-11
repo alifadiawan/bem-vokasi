@@ -62,9 +62,10 @@
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12 mt-3">
                                 <h2 class="fw-bold">Sekertaris dan Bendahara Kabinet</h2>
-                                <p>SEKBEN adalah pengurus yang membawahi beberapa kementerian dan biro,
-                                    bertanggung jawab serta berperan aktif atas pengelolaan sumber daya dan pengambilan
-                                    keputusan inti dalam suatu badan eksekutif mahasiswa.
+                                <p>Kementerian Sekertaris dan Bendahara bertanggung jawab sebagai support system
+                                    BEM FV UNAIR. Berfokus pada internal organisasi yang diwujudkan dalam dua bagian
+                                    yaitu Kesekretariatan dan Keuangan. Memimpin dalam pendanaan dan administrasi
+                                    yang merupakan kunci penting dalam menopang kinerja tiap kementerian.
                                 </p>
                             </div>
                             <hr>
