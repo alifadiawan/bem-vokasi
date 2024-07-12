@@ -209,11 +209,11 @@ h6 {
 .header .branding {
   /* background-color: rgba(var(--default-color-rgb), 0.05); */
   min-height: 50px;
-  transition: background-color 0.3s ease-in-out; 
+  transition: background-color 0.3s ease-in-out;
 }
 
 .header.scrolled .branding {
-    /* background-color: rgba(var(--default-color-rgb), 0.05); */
+  /* background-color: rgba(var(--default-color-rgb), 0.05); */
   background-color: #242424;
 
 }
@@ -301,7 +301,7 @@ h6 {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
   }
 
-  .bi-x{
+  .bi-x {
     color: black;
   }
 
@@ -790,18 +790,24 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80px; /* Adjust as needed */
-  height: 80px; /* Adjust as needed */
-  background-image: url('/ppp/img/logo_bem.png'); /* Replace with your image path */
+  width: 80px;
+  /* Adjust as needed */
+  height: 80px;
+  /* Adjust as needed */
+  background-image: url('/ppp/img/logo_bem.png');
+  /* Replace with your image path */
   background-size: contain;
   background-repeat: no-repeat;
   animation: fade-in-out-preloader 3s ease-in-out infinite;
 }
 
 @keyframes fade-in-out-preloader {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
@@ -974,11 +980,20 @@ section,
   --heading-color-rgb: 169, 167, 167;
   width: 100%;
   min-height: 100dvh;
+  min-height: 100vh;
   position: relative;
   padding: 160px 0 100px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .hero {
+    padding: 10px 0 100px 0;
+  }
+
 }
 
 #background {

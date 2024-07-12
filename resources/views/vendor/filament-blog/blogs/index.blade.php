@@ -1,6 +1,6 @@
 <x-blog-layout>
     @if (count($posts))
-        <section class="py-8 bg-image h-72">
+    <section class="py-8 bg-image h-72">
             <header class="container mx-auto px-6 text-center">
                 <h1
                     class="inherits-color pt-12 text-balance leading-tighter relative z-10 text-5xl font-semibold tracking-tight">
@@ -44,11 +44,6 @@
         </section>
     @else
         <div class="container mx-auto">
-            @session('error')
-                <div class="p-4 mb-4 text-sm text-yellow-800 rounded-lg bg-yellow-50" role="alert">
-                    {{ session('error') }}
-                </div>
-            @endsession
             <div class="flex justify-center">
                 <p class="text-2xl font-semibold text-gray-300">No posts found</p>
             </div>

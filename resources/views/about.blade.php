@@ -36,7 +36,7 @@
 
 
     <!-- perkenalan logo Section -->
-    <section id="about" class="about section px-3 px-lg-0" style="background-color: rgb(236, 236, 236); height: 100dvh">
+    <section id="about" class="about section px-3 px-lg-0" style="background-color: rgb(236, 236, 236);">
 
         <div class="container section-title" data-aos="fade-up">
             <span class="">Filosofi Logo<br></span>
