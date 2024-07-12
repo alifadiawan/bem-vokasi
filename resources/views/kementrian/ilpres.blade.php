@@ -5,11 +5,11 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">ILPRES</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">ILPRES</span></h3>
             </div>
             <div class="row justify-content-center">
 
-                <div class="col-12 col-md col-lg-4">
+                <div class="col-12 col-md-10 col-lg-4">
 
                     {{-- logo --}}
                     <div class="card">
@@ -56,8 +56,8 @@
                 </div>
 
 
-                <div class="col-12 col-md-8 col-lg-8 mt-3 mt-lg-0">
-                    <div class="card">
+                <div class="col-12 col-md-10 col-lg-8 mt-3 mt-lg-0">
+                    <div class="card mb-5">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Keilmuan dan Prestasi</h2>

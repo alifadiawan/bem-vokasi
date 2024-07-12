@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="col-12 col-lg-8 mt-3 mt-lg-0">
-                    <div class="card">
+                    <div class="card mb-5">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12 mt-3">
                                 <h2 class="fw-bold">Pengembangan Sumber Daya Manusia</h2>

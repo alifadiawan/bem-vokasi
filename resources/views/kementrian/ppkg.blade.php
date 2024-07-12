@@ -52,7 +52,7 @@
 
 
                 <div class="col-12 col-md-10 col-lg-8">
-                    <div class="card mt-3 mt-lg-0">
+                    <div class="card mt-3 mb-5 mt-lg-0">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Pemberdayaan Perempuan dan Kesetaraan Gender</h2>

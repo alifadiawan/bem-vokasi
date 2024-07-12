@@ -5,7 +5,7 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span aria-valuemax="fw-bold" style="color: #ff6800">PRADA</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">PRADA</span></h3>
             </div>
             <div class="row justify-content-center">
 
@@ -59,7 +59,7 @@
 
 
                 <div class="col-12 col-md-8 col-lg-8">
-                    <div class="card mt-3 mt-lg-0">
+                    <div class="card mt-3 mb-5 mt-lg-0">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Pemuda Olahraga dan Budaya</h2>
