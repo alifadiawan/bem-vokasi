@@ -5,7 +5,7 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">HUBLU</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">HUBLU</span></h3>
             </div>
             <div class="row justify-content-center">
 
@@ -45,10 +45,7 @@
                                         <h5 class="m-0 p-0">Menteri HUBLU </h5>
                                         <pc class="fw-light">D3 Perpajakan 2022</pc>
                                     </div>
-                                    <div class="icons">
-                                        <a href=""><i class="bi bi-instagram"></i></a>
-                                        <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
+                    
                                 </div>
                             </div>
                         </div>
@@ -57,18 +54,22 @@
 
 
                 <div class="col-12 col-md-8 col-lg-8">
-                    <div class="card mt-3 mt-lg-0">
+                    <div class="card mt-3 mb-5 mt-lg-0">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Hubungan Luar</h2>
-                                <p>Kementerian Perhubungan merupakan garda terdepan BEM Fakultas Vokasi Universitas
-                                    Airlangga dalam menjalin, menghubungkan dan mempererat relasi terhadap pihak internal
-                                    maupun eksternal agar tercipta kesinergisan dan keharmonisan.
+                                <p>Kementerian Hubungan Luar bertanggung jawab atas terjalinnya komunikasi dengan
+                                    organisasi mahasiswa Vokasi di Indonesia, menjalin hubungan baik dan berkelanjutan
+                                    dengan stakeholder, menciptakan kolaborasi dengan pihak eksternal yang dapat
+                                    menunjang kebutuhan BEM Fakultas Vokasi dalam lingkup keorganisasian, keprofesian,
+                                    akademik dan menciptakan database pihak stakeholder eksternal serta Ikatan Alumni
+                                    mahasiswa Vokasi. Serta bertanggung jawab terhadap internasionalisasi BEM FV dan
+                                    Fakultas Vokasi dalam rangka beradaptasi di era Digitalisasi dan Globalisasi.
                                 </p>
                             </div>
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/kementrian/HUBLU/fotbar-hublu.png') }}"
+                                <img src="{{ asset('ppp/img/kementrian/HUBLU/fotbar-hublu.jpg') }}"
                                     class="img-fluid rounded-3" alt="">
                             </div>
 

@@ -4,7 +4,7 @@
     <!-- headline -->
     <section id="hero" class="hero section">
 
-        <img id="background" src="{{ asset('ppp/img/profile-bg.webp') }}" alt="" data-aos="fade-down">
+        <img id="background" src="{{ asset('ppp/img/fotbar-kabinet.jpg') }}" alt="" data-aos="fade-down">
 
         <div class="container">
             <div class="row text-center justify-content-center align-items-center">

@@ -5,11 +5,11 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">ILPRES</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">ILPRES</span></h3>
             </div>
             <div class="row justify-content-center">
 
-                <div class="col-12 col-md col-lg-4">
+                <div class="col-12 col-md-10 col-lg-4">
 
                     {{-- logo --}}
                     <div class="card">
@@ -45,10 +45,10 @@
                                         <h5 class="m-0 p-0">Menteri ILPRES </h5>
                                         <pc class="fw-light">D4 Manajemen Perkantoran Digital 2022</pc>
                                     </div>
-                                    <div class="icons">
+                                    {{-- <div class="icons">
                                         <a href=""><i class="bi bi-instagram"></i></a>
                                         <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -56,16 +56,16 @@
                 </div>
 
 
-                <div class="col-12 col-md-8 col-lg-8 mt-3 mt-lg-0">
-                    <div class="card">
+                <div class="col-12 col-md-10 col-lg-8 mt-3 mt-lg-0">
+                    <div class="card mb-5">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
-                                <h2 class="fw-bold">Kementrian <br> Keilmuan dan Prestasi</h2>
-                                <p>Kementerian Keilmuan dan Prestasi bertugas untuk mewadahi Mahasiswa Fakultas
-                                    Vokasi Universitas Airlangga dalam mengembangkan kemampuan di ranah soft skill maupun
-                                    hard skill. Selain itu, Kementerian ILPRES juga membawahi bidang kewirausahaan dan
-                                    keilmuan. Serta bertugas dalam pemberian bekal kepada Mahasiswa dalam mempersiapkan diri
-                                    untuk menghadapi kehidupan pasca kampus demi menjawab tantangan bonus demografi.
+                                <h2 class="fw-bold">Keilmuan dan Prestasi</h2>
+                                <p>Kementerian Keilmuan, Inovasi dan Prestasi bertanggung jawab atas distribusi
+                                    informasi mengenai keprofesian mahasiswa Vokasi, meningkatkan iklim keilmiahan,
+                                    riset, dan teknologi, dan mewadahi serta memfasilitasi mahasiswa Vokasi dalam
+                                    mengembangkan potensi secara intensif, mendalam, dan berkelanjutan untuk
+                                    menunjang prestasi Fakultas Vokasi.
                                 </p>
                             </div>
                             <hr>

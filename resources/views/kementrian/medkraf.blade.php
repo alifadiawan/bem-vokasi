@@ -5,7 +5,7 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">MEDKRAF</span>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" class="fw-bold" style="color: #ff6800">MEDKRAF</span>
                 </h3>
             </div>
             <div class="row justify-content-center">
@@ -46,10 +46,10 @@
                                         <h5 class="m-0 p-0">Menteri MEDKRAF</h5>
                                         <pc class="fw-light">D4 Teknik Infomatika 2022</pc>
                                     </div>
-                                    <div class="icons">
+                                    {{-- <div class="icons">
                                         <a href=""><i class="bi bi-instagram"></i></a>
                                         <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -57,15 +57,15 @@
                 </div>
 
                 <div class="col-12 col-lg-8 mt-3">
-                    <div class="card">
+                    <div class="card mb-5">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12 mt-3">
                                 <h2 class="fw-bold">Media kreatif dan Digitalisasi</h2>
-                                <p>Kementrian Medkraf merupakan kementrian yang bertugas untuk menyampaikan informasi
-                                    mengenai
-                                    berbagai kegiatan yang ada di BEM Fakultas Vokasi Unair dan sebagai jembatan komunikasi
-                                    antara BEM dengan masyarakat luas melalui media resmi serta membangun citra positif
-                                    melalui desain dan dokumentasi.
+                                <p>Kementerian Media Kreatif dan Digitalisasi bertanggung jawab atas penyajian
+                                    konten kreatif sebagai penunjang citra positif, sebagai pusat komunikasi, media,
+                                    dan informasi, menciptakan perencanaan sistem penggunaan sosial media yang
+                                    efektif, efisien, dan menarik, serta meningkatkan potensi jurnalistik, komunikasi,
+                                    dan media kreatif bagi BEM Fakultas Vokasi.
                                 </p>
                             </div>
 

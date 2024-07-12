@@ -9,6 +9,6 @@ class LogoutResponse implements Responsable
 {
     public function toResponse($request): RedirectResponse
     {
-        return redirect('/blogs');
+        return redirect('blogs');
     }
 }

@@ -23,7 +23,7 @@
         }
 
         #my-pdf{
-            height: 1000px;
+            height: 800px;
         }
     </style>
 @endsection
@@ -33,7 +33,7 @@
     <script>
         let customMessage = "Browser ini tidak mendukung untuk menampilkan PDF, Silahkan buka menggunakan Komputer atau Laptop atau download <br> <a href='[url]'>kinerja_bem_fakultas_vokasi_2024.pdf</a>"
 
-        PDFObject.embed("ppp/img/kinerja.pdf", "#my-pdf", { fallbackLink : customMessage });
+        PDFObject.embed("ppp/img/PPT_GELORA_KARYA.pdf", "#my-pdf", { fallbackLink : customMessage });
     </script>
 @endsection
 

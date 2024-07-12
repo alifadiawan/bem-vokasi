@@ -9,7 +9,7 @@
             </div>
             <div class="row justify-content-center">
 
-                <div class="col-12 col-md col-lg-4">
+                <div class="col-12 col-md-10 col-lg-4">
 
                     {{-- logo --}}
                     <div class="card">
@@ -45,24 +45,23 @@
                                         <h5 class="m-0 p-0">Menteri EKRAF</h5>
                                         <pc class="fw-light">D4 TRIK 2022</pc>
                                     </div>
-                                    <div class="icons">
+                                    {{-- <div class="icons">
                                         <a href=""><i class="bi bi-instagram"></i></a>
                                         <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-8 col-lg-8">
-                    <div class="card mt-3 mt-lg-0">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="card mt-3 mt-lg-0 mb-5">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Ekonomi Kreatif</h2>
-                                <p>Kementerian Ekonomi Kreatif bergerak untuk mendukung proses realisasi dalam berkolaborasi
-                                    kepada substansi kewirausahaan mahasiswa dan BEM Fakultas Vokasi Unair. Bertujuan sebagai wadah bagi
-                                    mahasiswa, meningkatkan minat berwirausaha mahasiswa Vokasi serta mampu mengaplikasikan
-                                    jiwa entrepreneur untuk mencapai target finansial BEM Vokasi Unair.
+                                <p>Kementerian Ekonomi Kreatif bertanggung jawab atas menciptakan
+                                    wadah pengembangan kewirausahaan bagi mahasiswa vokasi dan
+                                    kemandirian finansial BEM Vokasi dengan usaha kreatif dan inovatif
                                 </p>
                             </div>
                             <hr>

@@ -5,10 +5,10 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">PPKG</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">PPKG</span></h3>
             </div>
             <div class="row justify-content-center">
-                <div class="col">
+                <div class="col-12 col-md-10 col-lg-4">
                     <div class="card">
                         <div class="card-body">
                             <div class="d-flex align-items-center">
@@ -40,10 +40,10 @@
                                         <h5 class="m-0 p-0">Menteri PPKG</h5>
                                         <pc class="fw-light">D4 Fisioterapi 2022</pc>
                                     </div>
-                                    <div class="icons">
+                                    {{-- <div class="icons">
                                         <a href=""><i class="bi bi-instagram"></i></a>
                                         <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -51,21 +51,16 @@
                 </div>
 
 
-                <div class="col-12 col-lg-8 mt-3 mt-lg-0">
-                    <div class="card">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="card mt-3 mb-5 mt-lg-0">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Pemberdayaan Perempuan dan Kesetaraan Gender</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius quisquam iste amet
-                                    officiis officia, quae fugit beatae aliquid minima laborum exercitationem maiores
-                                    aperiam,
-                                    provident a libero aspernatur perspiciatis quod! Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Officiis voluptates sint illum neque mollitia harum accusamus soluta,
-                                    dignissimos doloremque pariatur vel saepe dicta aliquam blanditiis! Sint facere animi
-                                    necessitatibus consectetur.
-                                    lorel Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti culpa sed
-                                    officiis autem, fuga harum eveniet consequatur, quia pariatur modi nisi repellat, at ea
-                                    quisquam similique. Cupiditate quam autem aspernatur.
+                                <p>Kementerian Pemberdayaan Perempuan dan Kesetraan Gender bertanggung
+                                    jawab atas perlindungan, peningkatan kesadaran dan kewaspadaan terhadap
+                                    kekerasan seksual. dan juga mengasah kemampuan berpikir kritis dalam
+                                    pengawalan kesetaraan gender Kemudian mengemas literatur atau kajian dalam
+                                    bentuk campaign melalui berbagai media yang strategis.
                                 </p>
                             </div>
 

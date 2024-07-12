@@ -5,7 +5,7 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">ADVOKESMA</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">ADVOKESMA</span></h3>
             </div>
             <div class="row justify-content-center">
 
@@ -45,10 +45,10 @@
                                         <h5 class="m-0 p-0">Menteri Advokesma </h5>
                                         <pc class="fw-light">D3 Manajemen Pemasaran 2022</pc>
                                     </div>
-                                    <div class="icons">
+                                    {{-- <div class="icons">
                                         <a href=""><i class="bi bi-instagram"></i></a>
                                         <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -56,8 +56,8 @@
                 </div>
 
 
-                <div class="col-12 col-md-8 col-lg-8">
-                    <div class="card">
+                <div class="col-12 col-lg-8">
+                    <div class="card mt-3 mt-lg-0 mb-5">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Advokasi Kesejahteraan Mahasiswa</h2>
@@ -69,17 +69,17 @@
                             </div>
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/kementrian/advokesma/fotbar-advokesma.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
 
-                            <h3 class="fw-bold mb-4 mt-5">Dirjen Advokesma</h3>
+                            <h3 class="fw-bold mb-4 mt-5">Dirjen</h3>
 
 
                             <div class="row justify-content-around row-cols-1 row-cols-lg-2 gap-2 gap-lg-0">
 
                                 <div class="col">
-                                    <div class="card mt-3 h-100 w-100">
+                                    <div class="card mt-3 h-100 w-100" >
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">
@@ -98,7 +98,7 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="card mt-3 h-100 w-100">
+                                    <div class="card mt-3 h-100 w-100" >
                                         <div class="card-body pb-0 pt-3">
                                             <div class="d-flex gap-2 align-items-center">
                                                 <div class="col">

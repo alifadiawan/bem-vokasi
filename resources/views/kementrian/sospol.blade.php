@@ -5,7 +5,7 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span style="color: #ff6800">SOSPOL</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">SOSPOL</span></h3>
             </div>
             <div class="row justify-content-center">
 
@@ -42,10 +42,10 @@
                                         <h5 class="m-0 p-0">Menteri SOSPOL </h5>
                                         <pc class="fw-light">D3 TRIK 2022</pc>
                                     </div>
-                                    <div class="icons">
+                                    {{-- <div class="icons">
                                         <a href=""><i class="bi bi-instagram"></i></a>
                                         <a href=""><i class="bi bi-linkedin"></i></a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -58,11 +58,12 @@
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12">
                                 <h2 class="fw-bold">Sosial Dan Politik</h2>
-                                <p>Kementerian Sosial & Politik merupakan kementerian di bawah naungan bidang pergerakan BEM Vokasi
-                                    Universitas Airlangga 2024. Kementerian Sospol BEM Vokasi Unair merupakan roda penggerak
-                                    yang menentukan langkah BEM Vokasi Unair dalam menyikapi kebijakan dan isu internal maupun
-                                    eksternal serta membentuk keharmonisan antar mahasiswa dan terbentuknya pola pikir
-                                    kritis.
+                                <p>Kementerian Pemuda, Olahraga, & Budaya bertanggung jawab atas menciptakan euforia dan
+                                    harmoni melalui kegiatan yang unik, kreatif, dan adaptif terhadap mahasiswa Fakultas Vokasi,
+                                    menciptakan iklim prestatif melalui kegiatan yang interaktif, supportif, dan kompetitif yang
+                                    mewadahi minat dan bakat dalam bidang olahraga, kepemudaan, seni dan budaya secara aktif
+                                    dan berkesinambungan di Fakultas Vokasi. Kemudian mengaktifkan Unit Kegiatan Fakultas guna
+                                    meningkatan skill secara menjurus dalam rangka mencetak SDM yang unggul dalam berkarya.
                                 </p>
                             </div>
                             <hr>

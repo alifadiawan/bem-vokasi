@@ -2,14 +2,16 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
-
 use Firefly\FilamentBlog\Traits\HasBlog;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Panel;
+use Illuminate\Support\Facades\Auth;
+
+class User extends Authenticatable implements FilamentUser
 {
     use HasFactory, Notifiable, HasBlog;
 
@@ -21,6 +23,7 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'roles',
         'password',
     ];
 
@@ -50,6 +53,15 @@ class User extends Authenticatable
     public function canComment(): bool
     {
         // your conditional logic here
+        return true;
+    }
+
+    public function canAccessPanel(Panel $panel): bool
+    {
+        if ($panel->getId() === 'admin' && $this->roles == 'admin') {
+            return true;
+        }
+        
         return true;
     }
 }
