@@ -66,7 +66,11 @@
     <!-- Company Profile -->
     <section id="services" class="services section px-3 px-lg-0">
 
-        <h2 class="text-center my-5">Company Profile BEM</h2>
+        <div class="container section-title" data-aos="fade-down">
+            <span class="" data-aos="fade-down" data-aos-duration="800" data-aos-delay="200">Company Profile BEM<br></span>
+            <h2 class="" data-aos="fade-down" data-aos-duration="800" data-aos-delay="100">Company Profile BEM<br></h2>
+        </div>
+
         <div class="row justify-content-center">
             <div class="col-lg-8 col-10" data-aos="fade-up" data-aos-duration="1000">
                 <iframe id="video" class="rounded-3" src="https://www.youtube.com/embed/SFxs6S3BEys?si=pxFhwMNja7XC2lL9"
