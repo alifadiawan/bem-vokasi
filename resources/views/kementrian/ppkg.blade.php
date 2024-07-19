@@ -66,7 +66,7 @@
 
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/kementrian/ppkg/fotbar-ppkg.png') }}"
+                                <img src="{{ asset('ppp/img/kementrian/ppkg/fotbar-ppkg.jpg') }}"
                                     class="img-fluid rounded-3" alt="">
                             </div>
 

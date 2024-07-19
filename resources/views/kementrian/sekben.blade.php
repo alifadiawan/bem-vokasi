@@ -5,7 +5,7 @@
     <div class="w-100 overflow-hidden position-relative mt-5">
         <div class="container position-relative mt-5">
             <div class="row">
-                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold"  style="color: #ff6800">SEKBEN</span></h3>
+                <h3 class="text-center my-5">Tentang Kementrian <span class="fw-bold" style="color: #ff6800">SEKBEN</span></h3>
             </div>
             <div class="row justify-content-center">
 
@@ -58,7 +58,7 @@
 
 
                 <div class="col-12 col-md-10 col-lg-8">
-                    <div class="card mt-3 mb-5">
+                    <div class="card card-profiles mt-3 mt-lg-0 mb-5">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12 mt-3">
                                 <h2 class="fw-bold">Sekertaris dan Bendahara Kabinet</h2>
@@ -70,7 +70,7 @@
                             </div>
                             <hr>
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/bg-unair.jpg') }}" class="img-fluid rounded-3" alt="">
+                                <img src="{{ asset('ppp/img/kementrian/SEKBEN/fotbar-sekben.jpg') }}" class="img-fluid rounded-3" alt="">
                             </div>
 
 
@@ -283,6 +283,11 @@
         }
 
 
+        @media (min-width: 320px) and (max-width: 480px) {
+            .card-profiles {
+                border: none;
+            }
+        }
     </style>
 @endsection
 

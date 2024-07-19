@@ -56,7 +56,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-8 mt-3">
+                <div class="col-12 col-lg-8 mt-3 mt-lg-0">
                     <div class="card mb-5">
                         <div class="card-body px-lg-5 px-3">
                             <div class="col-12 mt-3">
@@ -70,7 +70,7 @@
                             </div>
 
                             <div class="col-12">
-                                <img src="{{ asset('ppp/img/kementrian/medkraf/fotbar.png') }}" class="img-fluid rounded-3"
+                                <img src="{{ asset('ppp/img/kementrian/medkraf/forbar-medkraf.jpg') }}" class="img-fluid rounded-3"
                                     alt="">
                             </div>
 

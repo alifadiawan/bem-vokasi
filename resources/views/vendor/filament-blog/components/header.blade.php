@@ -16,7 +16,7 @@
                         @endif
                     </a>
                     <div class="hidden gap-x-10 sm:flex">
-                        <a href="{{ url('/') }}" class="font-semibold text-md hover:text-primary-600">
+                        <a href="{{ url('/blogs') }}" class="font-semibold text-md hover:text-primary-600">
                             <span>Home</span>
                         </a>
                         <a href="{{ route('filamentblog.post.index') }}"
@@ -103,4 +103,9 @@
             </div>
         </div>
     </div>
+    @session('error')
+        <div class="p-4 text-sm text-center text-yellow-800 rounded-lg bg-yellow-100" role="alert">
+            {{ session('error') }}
+        </div>
+    @endsession
 </header>

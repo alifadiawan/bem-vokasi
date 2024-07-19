@@ -1,7 +1,7 @@
 @extends('layout2.main')
 @section('content')
 
-    <section class="hero section">
+    <section class="hero section" style="padding-top: 160px">
 
         <img id="background" src="{{ asset('ppp/img/bg.png') }}" alt="">
 

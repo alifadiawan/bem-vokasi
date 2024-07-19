@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg text-end">
-                    <img id="logo-hover" src="{{ asset('ppp/img/logo_bem.png') }}" alt="" class="img-fluid">
+                    <img id="logo-hover" src="{{ asset('ppp/img/logo_bem.png') }}" class="w-75 img-fluid">
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
 
 
     <!-- perkenalan logo Section -->
-    <section id="about" class="about section px-3 px-lg-0" style="background-color: rgb(236, 236, 236); height: 100dvh">
+    <section id="about" class="about section px-3 px-lg-0" style="background-color: rgb(236, 236, 236);">
 
         <div class="container section-title" data-aos="fade-up">
             <span class="">Filosofi Logo<br></span>
@@ -163,6 +163,18 @@
 
 @section('page-css')
     <style>
+        .underline-orange {
+            text-decoration: underline;
+            text-decoration-color: #ff6800;
+            text-decoration-thickness: 3px;
+            /* Adjust the thickness as needed */
+            text-underline-offset: 4px;
+            /* Adjust the offset as needed */
+            color: inherit;
+            /* If you want to keep the text color same as the surrounding text */
+        }
+
+
         #logo-hover:hover {}
 
         #card-popup {

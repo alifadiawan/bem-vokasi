@@ -2,7 +2,7 @@
 @section('content')
 
     <!-- headline -->
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero section" style="padding-top: 160px">
 
         <img id="background" src="{{ asset('ppp/img/fotbar-kabinet.jpg') }}" alt="" data-aos="fade-down">
 
